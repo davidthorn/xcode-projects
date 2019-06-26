@@ -78,6 +78,7 @@ class ViewController: UIViewController {
                 DispatchQueue.main.async {
                     self.imageContainer.image = image
                     self.downloadButton.isEnabled = true
+                    self.counter.text = "Counter \(self.count) "
                 }
                 
             default:
