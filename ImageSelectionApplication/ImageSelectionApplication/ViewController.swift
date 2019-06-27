@@ -12,6 +12,30 @@ class ViewController: UIViewController {
 
     public var defaultImageUrl: URL?
     
+    internal var selectedImage: UIImage? {
+        get {
+            return self.selectedImageView.image
+        }
+        
+        set {
+            switch newValue {
+            case nil:
+                self.selectedImageView.image = nil
+                self.selectImageButton.isEnabled = true
+                self.selectImageButton.alpha = 1
+                
+                self.removeImageButton.isEnabled = false
+                self.removeImageButton.alpha = 0.5
+            default:
+                self.selectedImageView.image = newValue
+                self.selectImageButton.isEnabled = false
+                self.selectImageButton.alpha = 0.5
+                
+                self.removeImageButton.isEnabled = true
+                self.removeImageButton.alpha = 1
+            }
+        }
+    }
     @IBOutlet weak var selectedImageContainer: UIView!
     @IBOutlet weak var selectedImageView: UIImageView!
     
@@ -32,19 +56,16 @@ class ViewController: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         self.selectImageButton.isEnabled = self.selectedImageView.image == nil
         self.selectImageButton.alpha = 1
-        // Do any additional setup after loading the view.
     }
 
     @IBAction func selectImageButtonAction(_ sender: UIButton) {
-        
+        /// present image picker
     }
     
     @IBAction func removeImageButtonAction(_ sender: UIButton) {
-    
+        self.selectedImage = nil
     }
     
 }
-
