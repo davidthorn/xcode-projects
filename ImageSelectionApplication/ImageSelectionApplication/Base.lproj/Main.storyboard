@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ImageSelectionApplication" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Image Selection Application" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N38-1I-Cpo">
+                                <rect key="frame" x="30" y="74" width="354" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pXQ-br-v9x">
+                                <rect key="frame" x="30" y="134" width="354" height="354"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iFA-b0-pUz">
+                                        <rect key="frame" x="2" y="2" width="350" height="350"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="BhG-Kg-wqD">
+                                                <rect key="frame" x="0.0" y="0.0" width="350" height="350"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="BhG-Kg-wqD" secondAttribute="trailing" id="CdH-me-CfL"/>
+                                            <constraint firstItem="BhG-Kg-wqD" firstAttribute="top" secondItem="iFA-b0-pUz" secondAttribute="top" id="MBu-WH-Npg"/>
+                                            <constraint firstAttribute="bottom" secondItem="BhG-Kg-wqD" secondAttribute="bottom" id="Wwm-md-FFy"/>
+                                            <constraint firstItem="BhG-Kg-wqD" firstAttribute="leading" secondItem="iFA-b0-pUz" secondAttribute="leading" id="ya1-bQ-sT0"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="iFA-b0-pUz" secondAttribute="trailing" constant="2" id="79j-SP-7Bp"/>
+                                    <constraint firstAttribute="bottom" secondItem="iFA-b0-pUz" secondAttribute="bottom" constant="2" id="7Kv-00-zSR"/>
+                                    <constraint firstItem="iFA-b0-pUz" firstAttribute="leading" secondItem="pXQ-br-v9x" secondAttribute="leading" constant="2" id="HiU-lN-Yu5"/>
+                                    <constraint firstAttribute="width" secondItem="pXQ-br-v9x" secondAttribute="height" multiplier="1:1" id="bqg-b4-m0U"/>
+                                    <constraint firstItem="iFA-b0-pUz" firstAttribute="top" secondItem="pXQ-br-v9x" secondAttribute="top" constant="2" id="oiu-ya-KrI"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1mk-Am-Hsk">
+                                <rect key="frame" x="30" y="518" width="354" height="40"/>
+                                <color key="backgroundColor" red="0.29801002144813538" green="0.29805788397789001" blue="0.29799950122833252" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="GPu-72-5Tm"/>
+                                </constraints>
+                                <state key="normal" title="Select Image">
+                                    <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="selectImageButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pt4-bp-IW4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.40000000000000002" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wlK-FQ-WXd">
+                                <rect key="frame" x="30" y="588" width="354" height="40"/>
+                                <color key="backgroundColor" red="0.77824348211288452" green="0.19590166211128235" blue="0.084358535706996918" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="fHY-uB-zvh"/>
+                                </constraints>
+                                <state key="normal" title="Remove">
+                                    <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="removeImageButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AaV-H0-qkc"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="1mk-Am-Hsk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="1BI-QU-9mF"/>
+                            <constraint firstItem="pXQ-br-v9x" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="HyX-bC-mu4"/>
+                            <constraint firstItem="pXQ-br-v9x" firstAttribute="top" secondItem="N38-1I-Cpo" secondAttribute="bottom" constant="30" id="Plc-ga-Ne3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="pXQ-br-v9x" secondAttribute="trailing" constant="30" id="TJQ-TR-Vjj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1mk-Am-Hsk" secondAttribute="trailing" constant="30" id="V5I-Mq-b39"/>
+                            <constraint firstItem="1mk-Am-Hsk" firstAttribute="top" secondItem="pXQ-br-v9x" secondAttribute="bottom" constant="30" id="pXe-MK-xPZ"/>
+                            <constraint firstItem="N38-1I-Cpo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="qTU-sT-KvW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wlK-FQ-WXd" secondAttribute="trailing" constant="30" id="sXj-me-a2e"/>
+                            <constraint firstItem="wlK-FQ-WXd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="ti4-oB-bPK"/>
+                            <constraint firstItem="wlK-FQ-WXd" firstAttribute="top" secondItem="1mk-Am-Hsk" secondAttribute="bottom" constant="30" id="vhU-KK-z9C"/>
+                            <constraint firstItem="N38-1I-Cpo" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="ydS-2i-DdR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="N38-1I-Cpo" secondAttribute="trailing" constant="30" id="zag-QY-aXG"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="removeImageButton" destination="wlK-FQ-WXd" id="yCJ-m7-hg6"/>
+                        <outlet property="selectImageButton" destination="1mk-Am-Hsk" id="OTE-zW-ODd"/>
+                        <outlet property="selectedImageContainer" destination="iFA-b0-pUz" id="Pkn-B2-SaO"/>
+                        <outlet property="selectedImageView" destination="BhG-Kg-wqD" id="GZd-fU-gma"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
