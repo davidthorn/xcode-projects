@@ -56,6 +56,7 @@ class ViewController: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.selectedImageView.contentMode = .scaleAspectFill
         self.selectImageButton.isEnabled = self.selectedImageView.image == nil
         self.selectImageButton.alpha = 1
     }
