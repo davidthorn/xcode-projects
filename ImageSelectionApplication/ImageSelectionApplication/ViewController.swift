@@ -10,6 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    public var imagePickerController: UIImagePickerController?
+    
     public var defaultImageUrl: URL?
     
     internal var selectedImage: UIImage? {
@@ -57,16 +59,79 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.selectedImageView.contentMode = .scaleAspectFill
-        self.selectImageButton.isEnabled = self.selectedImageView.image == nil
+        self.selectImageButton.isEnabled = self.selectedImage == nil
         self.selectImageButton.alpha = 1
     }
 
     @IBAction func selectImageButtonAction(_ sender: UIButton) {
         /// present image picker
+        
+        if self.imagePickerController != nil {
+            self.imagePickerController?.delegate = nil
+            self.imagePickerController = nil
+        }
+        
+        self.imagePickerController = UIImagePickerController.init()
+        
+        let alert = UIAlertController.init(title: "Select Source Type", message: nil, preferredStyle: .actionSheet)
+        
+        if UIImagePickerController.isSourceTypeAvailable(.camera) {
+            alert.addAction(UIAlertAction.init(title: "Camera", style: .default, handler: { (_) in
+                self.presentImagePicker(controller: self.imagePickerController!, source: .camera)
+            }))
+        }
+        
+        if UIImagePickerController.isSourceTypeAvailable(.photoLibrary) {
+            alert.addAction(UIAlertAction.init(title: "Photo Library", style: .default, handler: { (_) in
+                self.presentImagePicker(controller: self.imagePickerController!, source: .photoLibrary)
+            }))
+        }
+        
+        if UIImagePickerController.isSourceTypeAvailable(.savedPhotosAlbum) {
+            alert.addAction(UIAlertAction.init(title: "Saved Albums", style: .default, handler: { (_) in
+                self.presentImagePicker(controller: self.imagePickerController!, source: .savedPhotosAlbum)
+            }))
+        }
+        alert.addAction(UIAlertAction.init(title: "Cancel", style: .cancel))
+        
+        self.present(alert, animated: true)
+        
+    }
+    
+    internal func presentImagePicker(controller: UIImagePickerController , source: UIImagePickerController.SourceType) {
+        controller.delegate = self
+        controller.sourceType = source
+        self.present(controller, animated: true)
     }
     
     @IBAction func removeImageButtonAction(_ sender: UIButton) {
         self.selectedImage = nil
+    }
+    
+}
+
+extension ViewController: UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+    
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+        
+        guard let image = info[UIImagePickerController.InfoKey.originalImage] as? UIImage else {
+            return self.imagePickerControllerDidCancel(picker)
+        }
+        
+        self.selectedImage = image
+        
+        picker.dismiss(animated: true) {
+            picker.delegate = nil
+            self.imagePickerController = nil
+        }
+        
+    }
+    
+    func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
+        picker.dismiss(animated: true) {
+            picker.delegate = nil
+            self.imagePickerController = nil
+        }
     }
     
 }
