@@ -42,6 +42,8 @@ class ViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = "Form View Controller"
+        
         self.elements = [
             .init(id: "1", label: "Name", name: "name", value: nil, optional: false, loadCell: self.loadFormCell , type: InputRowCell.self ),
             .init(id: "2", label: "Surname", name: "surname", value: nil, optional: false, loadCell: self.loadFormCell, type: InputRowCell.self),
@@ -69,6 +71,7 @@ class ViewController: UITableViewController {
     func loadFormCell(_ item: FormElement, _ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: InputRowCell.reuseIdentifier, for: indexPath) as! InputRowCell
         cell.element = item
+        cell.inputField.inputAccessoryView = nil
         cell.inputFieldLabel.text = item.label
         cell.inputField.delegate = self
         cell.inputField.tag = indexPath.row
@@ -97,6 +100,15 @@ class ViewController: UITableViewController {
     /// - Parameter sender: UIButton
     @objc func formButtonTapped(sender: UIButton) {
         print("button was tapped")
+        let state = self.formState!
+        let fullName = "\(state.name) \(state.surname)"
+        let address = "\(state.houseNumber) \(state.street)\n\(state.postalCode) \(state.town)"
+        
+        let alert = UIAlertController.init(title: "Success", message: "Thank you for submitting your details \(fullName).\nYour package will be sent to \n\(address)", preferredStyle: .alert)
+        
+        alert.addAction(UIAlertAction.init(title: "OK", style: .default))
+        self.present(alert, animated: true)
+        
     }
     
     /// Creates the tableview cell for this index path
@@ -136,7 +148,7 @@ class ViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        return 150
+        return 90
     }
     
 }
@@ -147,7 +159,10 @@ extension ViewController: UITextFieldDelegate {
         let tag = textField.tag
         let v = textField.text ?? ""
         self.elements[tag].value = v.count == 0 ? nil : v
-        guard let cell = tableView.cellForRow(at: IndexPath.init(row: tag + 1, section: 0)) as? InputRowCell else { return }
+        guard let cell = tableView.cellForRow(at: IndexPath.init(row: tag + 1, section: 0)) as? InputRowCell else {
+            self.view.endEditing(true);
+            return
+        }
         cell.inputField.becomeFirstResponder()
     }
     
