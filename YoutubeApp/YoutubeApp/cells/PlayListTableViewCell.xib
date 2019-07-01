@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="500" id="KGk-i7-Jjw" customClass="PlayListTableViewCell" customModule="YoutubeApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="523" height="500"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="523" height="499.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dZL-41-lgw">
+                        <rect key="frame" x="15" y="15" width="478" height="30"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UkX-5Z-WtA">
+                        <rect key="frame" x="0.0" y="53" width="523" height="299"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jt1-7T-c4E">
+                                <rect key="frame" x="0.0" y="0.0" width="523" height="299"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="jt1-7T-c4E" secondAttribute="trailing" id="7Wc-o5-6si"/>
+                            <constraint firstItem="jt1-7T-c4E" firstAttribute="top" secondItem="UkX-5Z-WtA" secondAttribute="top" id="KD9-gm-kzF"/>
+                            <constraint firstAttribute="width" secondItem="UkX-5Z-WtA" secondAttribute="height" multiplier="7:4" id="KMs-k5-6h9"/>
+                            <constraint firstAttribute="bottom" secondItem="jt1-7T-c4E" secondAttribute="bottom" id="Per-LR-Neo"/>
+                            <constraint firstItem="jt1-7T-c4E" firstAttribute="leading" secondItem="UkX-5Z-WtA" secondAttribute="leading" id="y5D-DP-iGf"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tVx-T0-aL1">
+                        <rect key="frame" x="15" y="372" width="478" height="21.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Published: 22 Dec 2019" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6jg-Pl-eBf">
+                        <rect key="frame" x="15" y="413.5" width="478" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="6jg-Pl-eBf" secondAttribute="trailing" constant="30" id="1qn-ai-axt"/>
+                    <constraint firstItem="tVx-T0-aL1" firstAttribute="top" secondItem="UkX-5Z-WtA" secondAttribute="bottom" constant="20" id="3aX-gT-1Cf"/>
+                    <constraint firstAttribute="trailing" secondItem="tVx-T0-aL1" secondAttribute="trailing" constant="30" id="DWd-4i-cCK"/>
+                    <constraint firstItem="6jg-Pl-eBf" firstAttribute="top" secondItem="tVx-T0-aL1" secondAttribute="bottom" constant="20" id="FJ9-Ko-fUY"/>
+                    <constraint firstItem="UkX-5Z-WtA" firstAttribute="top" secondItem="dZL-41-lgw" secondAttribute="bottom" constant="8" id="H4G-Ni-Z5C"/>
+                    <constraint firstItem="6jg-Pl-eBf" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="NW0-fl-94A"/>
+                    <constraint firstItem="UkX-5Z-WtA" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" id="Pzx-ub-1Hx"/>
+                    <constraint firstItem="dZL-41-lgw" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="SmX-md-y2Z"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="6jg-Pl-eBf" secondAttribute="bottom" constant="30" id="a1V-Ej-4bm"/>
+                    <constraint firstAttribute="trailing" secondItem="dZL-41-lgw" secondAttribute="trailing" constant="30" id="fIt-X0-T89"/>
+                    <constraint firstItem="UkX-5Z-WtA" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="gce-9V-eRP"/>
+                    <constraint firstAttribute="trailing" secondItem="UkX-5Z-WtA" secondAttribute="trailing" id="kim-Me-1Xt"/>
+                    <constraint firstItem="tVx-T0-aL1" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="lIc-Xb-qOj"/>
+                    <constraint firstItem="dZL-41-lgw" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="yYU-5T-QUk"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="playlistDescription" destination="tVx-T0-aL1" id="Uod-C1-5oM"/>
+                <outlet property="playlistImage" destination="jt1-7T-c4E" id="qMZ-8a-kKy"/>
+                <outlet property="playlistImageWrapper" destination="UkX-5Z-WtA" id="fmx-O8-G5r"/>
+                <outlet property="playlistItem" destination="dZL-41-lgw" id="xje-dZ-M64"/>
+                <outlet property="playlistPublishAt" destination="6jg-Pl-eBf" id="3pH-47-e74"/>
+            </connections>
+            <point key="canvasLocation" x="278.98550724637681" y="298.66071428571428"/>
+        </tableViewCell>
+    </objects>
+</document>
