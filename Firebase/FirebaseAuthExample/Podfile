@@ -1,0 +1,6 @@
+target 'FirebaseAuthExample' do
+  use_frameworks!
+  pod 'FirebaseCore'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Database'
+end
