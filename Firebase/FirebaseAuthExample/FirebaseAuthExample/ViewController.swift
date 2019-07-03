@@ -20,12 +20,33 @@ class ViewController: UIViewController {
             return self.signin(auth: Auth.auth())
         }
         
-        user.delete { (error) in
-            guard let error = error else {
-                return print("user was deleted")
+        user.reload { (error) in
+            switch user.isEmailVerified {
+            case true:
+                print("users email is verified")
+            case false:
+                
+                user.sendEmailVerification { (error) in
+                    
+                    guard let error = error else {
+                        return print("user email verification sent")
+                    }
+                    
+                    self.handleError(error: error)
+                }
+                
+                print("verify it now")
             }
-            self.handleError(error: error)
         }
+        
+        
+        
+//        user.delete { (error) in
+//            guard let error = error else {
+//                return print("user was deleted")
+//            }
+//            self.handleError(error: error)
+//        }
         
         print("Logged in user: \(user.email)")
     }
@@ -48,6 +69,8 @@ class ViewController: UIViewController {
         case .userNotFound:
             print("userNotFound")
             self.register(auth: Auth.auth())
+        case .tooManyRequests:
+            print("tooManyRequests, oooops")
         default: fatalError("error not supported here")
         }
         
