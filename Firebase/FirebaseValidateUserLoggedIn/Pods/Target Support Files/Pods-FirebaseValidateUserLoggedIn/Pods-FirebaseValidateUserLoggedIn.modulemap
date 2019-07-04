@@ -1,0 +1,6 @@
+framework module Pods_FirebaseValidateUserLoggedIn {
+  umbrella header "Pods-FirebaseValidateUserLoggedIn-umbrella.h"
+
+  export *
+  module * { export * }
+}
