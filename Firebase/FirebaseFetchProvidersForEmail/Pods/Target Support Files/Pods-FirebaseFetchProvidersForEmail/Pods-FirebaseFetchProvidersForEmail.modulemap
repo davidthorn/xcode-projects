@@ -1,0 +1,6 @@
+framework module Pods_FirebaseFetchProvidersForEmail {
+  umbrella header "Pods-FirebaseFetchProvidersForEmail-umbrella.h"
+
+  export *
+  module * { export * }
+}
