@@ -70,3 +70,4 @@ TicTacToe/cloud-functions/functions/service-key.json
 TicTacToe/cloud-functions/database.rules.json
 TicTacToe/cloud-functions/.firebaserc
 TicTacToe/cloud-functions/firebase.json
+TicTacToe/cloud-functions/functions/lib

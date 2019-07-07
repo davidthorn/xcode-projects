@@ -33,7 +33,6 @@ open class GameViewController: UIViewController {
         }
     }
     
-    
     @IBOutlet weak var xJoinButton: PlayerXButton! {
         didSet {
             guard let button = self.xJoinButton else { return }
