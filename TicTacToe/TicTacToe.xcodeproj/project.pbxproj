@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		448C8D3322CFB12C0037E503 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448C8D3222CFB12C0037E503 /* AppDelegate.swift */; };
+		448C8D3522CFB12C0037E503 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448C8D3422CFB12C0037E503 /* ViewController.swift */; };
+		448C8D3822CFB12D0037E503 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 448C8D3622CFB12D0037E503 /* Main.storyboard */; };
+		448C8D3A22CFB12E0037E503 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 448C8D3922CFB12E0037E503 /* Assets.xcassets */; };
+		448C8D3D22CFB12E0037E503 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 448C8D3B22CFB12E0037E503 /* LaunchScreen.storyboard */; };
+		448C8D4622CFB15F0037E503 /* CREDENTIALS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448C8D4422CFB15F0037E503 /* CREDENTIALS.swift */; };
+		448C8D4922CFB7070037E503 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 448C8D4822CFB7070037E503 /* GoogleService-Info.plist */; };
+		44AB62FF22D12DF900A1760A /* StartGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AB62FE22D12DF900A1760A /* StartGame.swift */; };
+		44AB630122D12E4E00A1760A /* PlayerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AB630022D12E4E00A1760A /* PlayerType.swift */; };
+		44AB630322D13AE400A1760A /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AB630222D13AE400A1760A /* Game.swift */; };
+		44AB630522D13CDB00A1760A /* Players.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AB630422D13CDB00A1760A /* Players.swift */; };
+		44AB630922D13DF000A1760A /* GamesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AB630822D13DF000A1760A /* GamesListViewController.swift */; };
+		44AB630B22D145D500A1760A /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AB630A22D145D500A1760A /* GameViewController.swift */; };
+		44AB630E22D14C2C00A1760A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AB630D22D14C2C00A1760A /* LoginViewController.swift */; };
+		44AB631022D175D000A1760A /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AB630F22D175D000A1760A /* Tile.swift */; };
+		44D1A56A22D1DEFD00662AC9 /* GameButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D1A56922D1DEFD00662AC9 /* GameButton.swift */; };
+		44D1A56C22D1E3AC00662AC9 /* WhosMoveLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D1A56B22D1E3AC00662AC9 /* WhosMoveLabel.swift */; };
+		44D1A56E22D1E52E00662AC9 /* PlayerXButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D1A56D22D1E52E00662AC9 /* PlayerXButton.swift */; };
+		44D1A57022D1E7ED00662AC9 /* PlayerOButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D1A56F22D1E7ED00662AC9 /* PlayerOButton.swift */; };
+		44D1A57222D1E9EA00662AC9 /* NextMoveText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D1A57122D1E9EA00662AC9 /* NextMoveText.swift */; };
+		44D1A57422D1EB0E00662AC9 /* Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D1A57322D1EB0E00662AC9 /* Move.swift */; };
+		E59E471DA036917ACC7C2C06 /* Pods_TicTacToe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FBE37A55E4A5E67B8E5D645 /* Pods_TicTacToe.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		34C85DA08FE397D3D97AD3E7 /* Pods-TicTacToe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TicTacToe.debug.xcconfig"; path = "Target Support Files/Pods-TicTacToe/Pods-TicTacToe.debug.xcconfig"; sourceTree = "<group>"; };
+		448C8D2F22CFB12C0037E503 /* TicTacToe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicTacToe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		448C8D3222CFB12C0037E503 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		448C8D3422CFB12C0037E503 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		448C8D3722CFB12D0037E503 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		448C8D3922CFB12E0037E503 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		448C8D3C22CFB12E0037E503 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		448C8D3E22CFB12E0037E503 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		448C8D4422CFB15F0037E503 /* CREDENTIALS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CREDENTIALS.swift; path = ../../../CREDENTIALS.swift; sourceTree = "<group>"; };
+		448C8D4822CFB7070037E503 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../tictactoe/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		44AB62FE22D12DF900A1760A /* StartGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartGame.swift; sourceTree = "<group>"; };
+		44AB630022D12E4E00A1760A /* PlayerType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerType.swift; sourceTree = "<group>"; };
+		44AB630222D13AE400A1760A /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		44AB630422D13CDB00A1760A /* Players.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Players.swift; sourceTree = "<group>"; };
+		44AB630822D13DF000A1760A /* GamesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesListViewController.swift; sourceTree = "<group>"; };
+		44AB630A22D145D500A1760A /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		44AB630D22D14C2C00A1760A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		44AB630F22D175D000A1760A /* Tile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
+		44D1A56922D1DEFD00662AC9 /* GameButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameButton.swift; sourceTree = "<group>"; };
+		44D1A56B22D1E3AC00662AC9 /* WhosMoveLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhosMoveLabel.swift; sourceTree = "<group>"; };
+		44D1A56D22D1E52E00662AC9 /* PlayerXButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerXButton.swift; sourceTree = "<group>"; };
+		44D1A56F22D1E7ED00662AC9 /* PlayerOButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerOButton.swift; sourceTree = "<group>"; };
+		44D1A57122D1E9EA00662AC9 /* NextMoveText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextMoveText.swift; sourceTree = "<group>"; };
+		44D1A57322D1EB0E00662AC9 /* Move.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Move.swift; sourceTree = "<group>"; };
+		8FBE37A55E4A5E67B8E5D645 /* Pods_TicTacToe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TicTacToe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90C7D4B4FE7F1723C6293742 /* Pods-TicTacToe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TicTacToe.release.xcconfig"; path = "Target Support Files/Pods-TicTacToe/Pods-TicTacToe.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		448C8D2C22CFB12C0037E503 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E59E471DA036917ACC7C2C06 /* Pods_TicTacToe.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		448C8D2622CFB12C0037E503 = {
+			isa = PBXGroup;
+			children = (
+				448C8D3122CFB12C0037E503 /* TicTacToe */,
+				448C8D3022CFB12C0037E503 /* Products */,
+				5E7B51558343D36DACAF510A /* Pods */,
+				FC3507DD6D18EFCD2CD1F1ED /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		448C8D3022CFB12C0037E503 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				448C8D2F22CFB12C0037E503 /* TicTacToe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		448C8D3122CFB12C0037E503 /* TicTacToe */ = {
+			isa = PBXGroup;
+			children = (
+				44AB630622D13DD700A1760A /* scenes */,
+				44AB62FD22D12DEA00A1760A /* Models */,
+				448C8D4822CFB7070037E503 /* GoogleService-Info.plist */,
+				448C8D4422CFB15F0037E503 /* CREDENTIALS.swift */,
+				448C8D3222CFB12C0037E503 /* AppDelegate.swift */,
+				448C8D3422CFB12C0037E503 /* ViewController.swift */,
+				448C8D3622CFB12D0037E503 /* Main.storyboard */,
+				448C8D3922CFB12E0037E503 /* Assets.xcassets */,
+				448C8D3B22CFB12E0037E503 /* LaunchScreen.storyboard */,
+				448C8D3E22CFB12E0037E503 /* Info.plist */,
+			);
+			path = TicTacToe;
+			sourceTree = "<group>";
+		};
+		44AB62FD22D12DEA00A1760A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				44AB62FE22D12DF900A1760A /* StartGame.swift */,
+				44AB630022D12E4E00A1760A /* PlayerType.swift */,
+				44AB630222D13AE400A1760A /* Game.swift */,
+				44AB630422D13CDB00A1760A /* Players.swift */,
+				44AB630F22D175D000A1760A /* Tile.swift */,
+				44D1A57322D1EB0E00662AC9 /* Move.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		44AB630622D13DD700A1760A /* scenes */ = {
+			isa = PBXGroup;
+			children = (
+				44AB630C22D14C2100A1760A /* auth */,
+				44AB630722D13DE100A1760A /* games */,
+			);
+			path = scenes;
+			sourceTree = "<group>";
+		};
+		44AB630722D13DE100A1760A /* games */ = {
+			isa = PBXGroup;
+			children = (
+				44AB630822D13DF000A1760A /* GamesListViewController.swift */,
+				44AB630A22D145D500A1760A /* GameViewController.swift */,
+				44D1A56922D1DEFD00662AC9 /* GameButton.swift */,
+				44D1A56B22D1E3AC00662AC9 /* WhosMoveLabel.swift */,
+				44D1A56D22D1E52E00662AC9 /* PlayerXButton.swift */,
+				44D1A56F22D1E7ED00662AC9 /* PlayerOButton.swift */,
+				44D1A57122D1E9EA00662AC9 /* NextMoveText.swift */,
+			);
+			path = games;
+			sourceTree = "<group>";
+		};
+		44AB630C22D14C2100A1760A /* auth */ = {
+			isa = PBXGroup;
+			children = (
+				44AB630D22D14C2C00A1760A /* LoginViewController.swift */,
+			);
+			path = auth;
+			sourceTree = "<group>";
+		};
+		5E7B51558343D36DACAF510A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				34C85DA08FE397D3D97AD3E7 /* Pods-TicTacToe.debug.xcconfig */,
+				90C7D4B4FE7F1723C6293742 /* Pods-TicTacToe.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FC3507DD6D18EFCD2CD1F1ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8FBE37A55E4A5E67B8E5D645 /* Pods_TicTacToe.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		448C8D2E22CFB12C0037E503 /* TicTacToe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 448C8D4122CFB12E0037E503 /* Build configuration list for PBXNativeTarget "TicTacToe" */;
+			buildPhases = (
+				D3181F8A047F32CFD2D86A64 /* [CP] Check Pods Manifest.lock */,
+				448C8D2B22CFB12C0037E503 /* Sources */,
+				448C8D2C22CFB12C0037E503 /* Frameworks */,
+				448C8D2D22CFB12C0037E503 /* Resources */,
+				8FEDF3BB84003C368BCCF0AC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TicTacToe;
+			productName = TicTacToe;
+			productReference = 448C8D2F22CFB12C0037E503 /* TicTacToe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		448C8D2722CFB12C0037E503 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "David Thorn";
+				TargetAttributes = {
+					448C8D2E22CFB12C0037E503 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 448C8D2A22CFB12C0037E503 /* Build configuration list for PBXProject "TicTacToe" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 448C8D2622CFB12C0037E503;
+			productRefGroup = 448C8D3022CFB12C0037E503 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				448C8D2E22CFB12C0037E503 /* TicTacToe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		448C8D2D22CFB12C0037E503 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				448C8D3D22CFB12E0037E503 /* LaunchScreen.storyboard in Resources */,
+				448C8D4922CFB7070037E503 /* GoogleService-Info.plist in Resources */,
+				448C8D3A22CFB12E0037E503 /* Assets.xcassets in Resources */,
+				448C8D3822CFB12D0037E503 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8FEDF3BB84003C368BCCF0AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TicTacToe/Pods-TicTacToe-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TicTacToe/Pods-TicTacToe-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TicTacToe/Pods-TicTacToe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3181F8A047F32CFD2D86A64 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TicTacToe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		448C8D2B22CFB12C0037E503 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44D1A57422D1EB0E00662AC9 /* Move.swift in Sources */,
+				44AB630922D13DF000A1760A /* GamesListViewController.swift in Sources */,
+				44D1A56A22D1DEFD00662AC9 /* GameButton.swift in Sources */,
+				44D1A57022D1E7ED00662AC9 /* PlayerOButton.swift in Sources */,
+				44AB630122D12E4E00A1760A /* PlayerType.swift in Sources */,
+				44AB630322D13AE400A1760A /* Game.swift in Sources */,
+				448C8D4622CFB15F0037E503 /* CREDENTIALS.swift in Sources */,
+				44AB630B22D145D500A1760A /* GameViewController.swift in Sources */,
+				44AB630522D13CDB00A1760A /* Players.swift in Sources */,
+				44D1A57222D1E9EA00662AC9 /* NextMoveText.swift in Sources */,
+				448C8D3522CFB12C0037E503 /* ViewController.swift in Sources */,
+				44AB62FF22D12DF900A1760A /* StartGame.swift in Sources */,
+				44AB630E22D14C2C00A1760A /* LoginViewController.swift in Sources */,
+				44AB631022D175D000A1760A /* Tile.swift in Sources */,
+				448C8D3322CFB12C0037E503 /* AppDelegate.swift in Sources */,
+				44D1A56C22D1E3AC00662AC9 /* WhosMoveLabel.swift in Sources */,
+				44D1A56E22D1E52E00662AC9 /* PlayerXButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		448C8D3622CFB12D0037E503 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				448C8D3722CFB12D0037E503 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		448C8D3B22CFB12E0037E503 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				448C8D3C22CFB12E0037E503 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		448C8D3F22CFB12E0037E503 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		448C8D4022CFB12E0037E503 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		448C8D4222CFB12E0037E503 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34C85DA08FE397D3D97AD3E7 /* Pods-TicTacToe.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TicTacToe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = thorn.james.david.TicTacToe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		448C8D4322CFB12E0037E503 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90C7D4B4FE7F1723C6293742 /* Pods-TicTacToe.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TicTacToe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = thorn.james.david.TicTacToe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		448C8D2A22CFB12C0037E503 /* Build configuration list for PBXProject "TicTacToe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				448C8D3F22CFB12E0037E503 /* Debug */,
+				448C8D4022CFB12E0037E503 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		448C8D4122CFB12E0037E503 /* Build configuration list for PBXNativeTarget "TicTacToe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				448C8D4222CFB12E0037E503 /* Debug */,
+				448C8D4322CFB12E0037E503 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 448C8D2722CFB12C0037E503 /* Project object */;
+}
