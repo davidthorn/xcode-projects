@@ -1,0 +1,46 @@
+{
+  "rules": {
+    ".read": "auth.uid !== null",
+    ".write": false,
+    "start" : {
+        "$gameId" : {
+          ".validate" : "!root.child('games').child($gameId).exists() && newData.hasChild('player') && newData.hasChild('uid')",
+          ".write" : "auth.uid !== null",
+            "id" : {
+              ".validate": "newData.val() === $gameId"
+            },
+            "player": {
+              ".validate" :  "newData.val() === 'x' || newData.val() === 'o'"
+            },
+            "uid" : {
+              ".validate" : "newData.val() === auth.uid"
+            }
+        }
+      },
+     "join" : {
+       ".read" : false,
+     	"$gameId" : {
+        ".write" : "auth.uid !== null",
+        ".validate" : "root.child('games').child($gameId).exists()",
+          "uid" : {
+            ".validate" : "newData.val() === auth.uid"
+          },
+          "player": {
+            ".validate" :  "newData.val() === 'x' || newData.val() === 'o' && !root.child('games').child($gameId).child('players').child(newData.val()).exists()"
+          }
+      }
+     },
+    "move": {
+     "$gameId": {
+       ".write" : "auth.uid !== null",
+       ".validate" : "root.child('games').child($gameId).exists()",
+        "uid" : {
+            ".validate" : "newData.val() === auth.uid && root.child('games').child($gameId).child('nextMove').val() === newData.val()"
+        },
+        "tile" : {
+          ".validate" : "!root.child('games').child($gameId).child('tiles').child(newData.val()).exists()"
+        }
+     }     
+    }
+  }
+}
