@@ -71,3 +71,5 @@ TicTacToe/cloud-functions/.firebaserc
 TicTacToe/cloud-functions/firebase.json
 TicTacToe/cloud-functions/functions/lib
 Firebase/FirebasePromisesApp/Pods
+ContainerTabController/Pods/
+ContainerTabController/DerivedData/

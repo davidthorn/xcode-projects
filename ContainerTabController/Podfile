@@ -1,0 +1,9 @@
+target 'ContainerTabController' do
+  use_frameworks!
+  pod 'TabBarController' , :path => "."
+end
+
+target 'TabBarController' do
+  use_frameworks!
+
+end
