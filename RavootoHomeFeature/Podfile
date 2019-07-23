@@ -1,0 +1,8 @@
+target 'RavootoHome' do
+  use_frameworks!
+end
+
+target 'RavootoHomeFeature' do
+  use_frameworks!
+  pod 'RavootoHome' , :path => "."
+end

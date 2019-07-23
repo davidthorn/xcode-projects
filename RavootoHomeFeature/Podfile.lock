@@ -1,0 +1,16 @@
+PODS:
+  - RavootoHome (0.1.0)
+
+DEPENDENCIES:
+  - RavootoHome (from `.`)
+
+EXTERNAL SOURCES:
+  RavootoHome:
+    :path: "."
+
+SPEC CHECKSUMS:
+  RavootoHome: 9742c9169d9be4c24ddb2d93a99c8deaf73c7dd8
+
+PODFILE CHECKSUM: 49ce5258f4c17b4f4de30bf84a791bb3b56dd181
+
+COCOAPODS: 1.7.2
