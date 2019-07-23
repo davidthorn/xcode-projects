@@ -1,0 +1,8 @@
+platform :ios, '10.0'
+use_frameworks!
+
+target 'EncryptionApp' do
+  use_frameworks!
+
+  pod 'CryptoSwift'
+end

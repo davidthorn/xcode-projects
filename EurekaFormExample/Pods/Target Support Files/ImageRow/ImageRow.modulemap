@@ -1,0 +1,6 @@
+framework module ImageRow {
+  umbrella header "ImageRow-umbrella.h"
+
+  export *
+  module * { export * }
+}

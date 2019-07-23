@@ -1,0 +1,6 @@
+framework module ProfileModule {
+  umbrella header "ProfileModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

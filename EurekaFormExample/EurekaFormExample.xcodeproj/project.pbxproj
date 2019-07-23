@@ -1,0 +1,1050 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		315F51BE1049535BA29E2191 /* Pods_EurekaFormExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8D9878EA6D67814C76D6C0B /* Pods_EurekaFormExample.framework */; };
+		448FB13522E7113C000A2D17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448FB13422E7113C000A2D17 /* AppDelegate.swift */; };
+		448FB13722E7113C000A2D17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448FB13622E7113C000A2D17 /* ViewController.swift */; };
+		448FB13A22E7113C000A2D17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 448FB13822E7113C000A2D17 /* Main.storyboard */; };
+		448FB13C22E7113D000A2D17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 448FB13B22E7113D000A2D17 /* Assets.xcassets */; };
+		448FB13F22E7113D000A2D17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 448FB13D22E7113D000A2D17 /* LaunchScreen.storyboard */; };
+		448FB15922E731B0000A2D17 /* ProfileModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 448FB15722E731B0000A2D17 /* ProfileModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		448FB15C22E731B0000A2D17 /* ProfileModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 448FB15522E731AF000A2D17 /* ProfileModule.framework */; };
+		448FB15D22E731B0000A2D17 /* ProfileModule.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 448FB15522E731AF000A2D17 /* ProfileModule.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		448FB16522E731CE000A2D17 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 448FB16422E731CE000A2D17 /* Profile.storyboard */; };
+		448FB17022E7334F000A2D17 /* ChangeEmailModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 448FB16E22E7334F000A2D17 /* ChangeEmailModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		448FB17322E7334F000A2D17 /* ChangeEmailModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 448FB16C22E7334F000A2D17 /* ChangeEmailModule.framework */; };
+		448FB17422E7334F000A2D17 /* ChangeEmailModule.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 448FB16C22E7334F000A2D17 /* ChangeEmailModule.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		448FB17B22E733FF000A2D17 /* ChangeEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448FB14A22E72632000A2D17 /* ChangeEmailViewController.swift */; };
+		448FB17C22E73402000A2D17 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448FB14822E71DC1000A2D17 /* ProfileViewController.swift */; };
+		448FB17E22E7340F000A2D17 /* ChangeEmail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 448FB17D22E7340F000A2D17 /* ChangeEmail.storyboard */; };
+		448FB18822E73479000A2D17 /* ChangePasswordModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 448FB18622E73479000A2D17 /* ChangePasswordModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		448FB18B22E73479000A2D17 /* ChangePasswordModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 448FB18422E73479000A2D17 /* ChangePasswordModule.framework */; };
+		448FB18C22E73479000A2D17 /* ChangePasswordModule.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 448FB18422E73479000A2D17 /* ChangePasswordModule.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		448FB19422E734CB000A2D17 /* ChangePassword.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 448FB19322E734CB000A2D17 /* ChangePassword.storyboard */; };
+		448FB19522E734D6000A2D17 /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448FB14E22E72CD0000A2D17 /* ChangePasswordViewController.swift */; };
+		583157D3BC8963C878B81000 /* Pods_ProfileModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F827BEF26E8C5DB144A4722F /* Pods_ProfileModule.framework */; };
+		83E15FF86C4F4390918A5279 /* Pods_ChangeEmailModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ABF90AC1892208114F90A86 /* Pods_ChangeEmailModule.framework */; };
+		F967679675875D42F988EE9D /* Pods_ChangePasswordModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F80C33D6E337F5FA0D9BF13C /* Pods_ChangePasswordModule.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		448FB15A22E731B0000A2D17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 448FB12922E7113C000A2D17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 448FB15422E731AF000A2D17;
+			remoteInfo = ProfileModule;
+		};
+		448FB17122E7334F000A2D17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 448FB12922E7113C000A2D17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 448FB16B22E7334F000A2D17;
+			remoteInfo = ChangeEmailModule;
+		};
+		448FB18922E73479000A2D17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 448FB12922E7113C000A2D17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 448FB18322E73479000A2D17;
+			remoteInfo = ChangePasswordModule;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		448FB16122E731B0000A2D17 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				448FB18C22E73479000A2D17 /* ChangePasswordModule.framework in Embed Frameworks */,
+				448FB15D22E731B0000A2D17 /* ProfileModule.framework in Embed Frameworks */,
+				448FB17422E7334F000A2D17 /* ChangeEmailModule.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		227379B02DBDE9851A5D92C8 /* Pods-ChangePasswordModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChangePasswordModule.debug.xcconfig"; path = "Target Support Files/Pods-ChangePasswordModule/Pods-ChangePasswordModule.debug.xcconfig"; sourceTree = "<group>"; };
+		2ABF90AC1892208114F90A86 /* Pods_ChangeEmailModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChangeEmailModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4057E71A73DA6CE12276906B /* Pods-ChangeEmailModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChangeEmailModule.release.xcconfig"; path = "Target Support Files/Pods-ChangeEmailModule/Pods-ChangeEmailModule.release.xcconfig"; sourceTree = "<group>"; };
+		448FB13122E7113C000A2D17 /* EurekaFormExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EurekaFormExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		448FB13422E7113C000A2D17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		448FB13622E7113C000A2D17 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		448FB13922E7113C000A2D17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		448FB13B22E7113D000A2D17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		448FB13E22E7113D000A2D17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		448FB14022E7113D000A2D17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		448FB14822E71DC1000A2D17 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		448FB14A22E72632000A2D17 /* ChangeEmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeEmailViewController.swift; sourceTree = "<group>"; };
+		448FB14E22E72CD0000A2D17 /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewController.swift; sourceTree = "<group>"; };
+		448FB15522E731AF000A2D17 /* ProfileModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ProfileModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		448FB15722E731B0000A2D17 /* ProfileModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileModule.h; sourceTree = "<group>"; };
+		448FB15822E731B0000A2D17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		448FB16422E731CE000A2D17 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		448FB16622E7324F000A2D17 /* ProfileModule.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = ProfileModule.podspec; sourceTree = "<group>"; };
+		448FB16C22E7334F000A2D17 /* ChangeEmailModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ChangeEmailModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		448FB16E22E7334F000A2D17 /* ChangeEmailModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChangeEmailModule.h; sourceTree = "<group>"; };
+		448FB16F22E7334F000A2D17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		448FB17822E73367000A2D17 /* ChangeEmailModule.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = ChangeEmailModule.podspec; sourceTree = "<group>"; };
+		448FB17D22E7340F000A2D17 /* ChangeEmail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChangeEmail.storyboard; sourceTree = "<group>"; };
+		448FB18422E73479000A2D17 /* ChangePasswordModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ChangePasswordModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		448FB18622E73479000A2D17 /* ChangePasswordModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChangePasswordModule.h; sourceTree = "<group>"; };
+		448FB18722E73479000A2D17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		448FB19022E7348E000A2D17 /* ChangePasswordModule.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = ChangePasswordModule.podspec; sourceTree = "<group>"; };
+		448FB19322E734CB000A2D17 /* ChangePassword.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChangePassword.storyboard; sourceTree = "<group>"; };
+		4EB5927C84BDDAA6434579BA /* Pods-ChangePasswordModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChangePasswordModule.release.xcconfig"; path = "Target Support Files/Pods-ChangePasswordModule/Pods-ChangePasswordModule.release.xcconfig"; sourceTree = "<group>"; };
+		659A31C510448BBB44E9645D /* Pods-ProfileModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProfileModule.debug.xcconfig"; path = "Target Support Files/Pods-ProfileModule/Pods-ProfileModule.debug.xcconfig"; sourceTree = "<group>"; };
+		69E7F11A4CAA7C51049AA7A4 /* Pods-ChangeEmailModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChangeEmailModule.debug.xcconfig"; path = "Target Support Files/Pods-ChangeEmailModule/Pods-ChangeEmailModule.debug.xcconfig"; sourceTree = "<group>"; };
+		790E407332E36C2E35DB15BA /* Pods-ProfileModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProfileModule.release.xcconfig"; path = "Target Support Files/Pods-ProfileModule/Pods-ProfileModule.release.xcconfig"; sourceTree = "<group>"; };
+		8F5AF086C6C84B4051662842 /* Pods-EurekaFormExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EurekaFormExample.debug.xcconfig"; path = "Target Support Files/Pods-EurekaFormExample/Pods-EurekaFormExample.debug.xcconfig"; sourceTree = "<group>"; };
+		B492E1DA4093CB156557F50E /* Pods-EurekaFormExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EurekaFormExample.release.xcconfig"; path = "Target Support Files/Pods-EurekaFormExample/Pods-EurekaFormExample.release.xcconfig"; sourceTree = "<group>"; };
+		F80C33D6E337F5FA0D9BF13C /* Pods_ChangePasswordModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChangePasswordModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F827BEF26E8C5DB144A4722F /* Pods_ProfileModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProfileModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8D9878EA6D67814C76D6C0B /* Pods_EurekaFormExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EurekaFormExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		448FB12E22E7113C000A2D17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				448FB15C22E731B0000A2D17 /* ProfileModule.framework in Frameworks */,
+				448FB18B22E73479000A2D17 /* ChangePasswordModule.framework in Frameworks */,
+				315F51BE1049535BA29E2191 /* Pods_EurekaFormExample.framework in Frameworks */,
+				448FB17322E7334F000A2D17 /* ChangeEmailModule.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		448FB15222E731AF000A2D17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				583157D3BC8963C878B81000 /* Pods_ProfileModule.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		448FB16922E7334F000A2D17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83E15FF86C4F4390918A5279 /* Pods_ChangeEmailModule.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		448FB18122E73479000A2D17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F967679675875D42F988EE9D /* Pods_ChangePasswordModule.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F192F60331DFD86D414511C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F5AF086C6C84B4051662842 /* Pods-EurekaFormExample.debug.xcconfig */,
+				B492E1DA4093CB156557F50E /* Pods-EurekaFormExample.release.xcconfig */,
+				659A31C510448BBB44E9645D /* Pods-ProfileModule.debug.xcconfig */,
+				790E407332E36C2E35DB15BA /* Pods-ProfileModule.release.xcconfig */,
+				69E7F11A4CAA7C51049AA7A4 /* Pods-ChangeEmailModule.debug.xcconfig */,
+				4057E71A73DA6CE12276906B /* Pods-ChangeEmailModule.release.xcconfig */,
+				227379B02DBDE9851A5D92C8 /* Pods-ChangePasswordModule.debug.xcconfig */,
+				4EB5927C84BDDAA6434579BA /* Pods-ChangePasswordModule.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		220888AE985077E650D64C58 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8D9878EA6D67814C76D6C0B /* Pods_EurekaFormExample.framework */,
+				F827BEF26E8C5DB144A4722F /* Pods_ProfileModule.framework */,
+				2ABF90AC1892208114F90A86 /* Pods_ChangeEmailModule.framework */,
+				F80C33D6E337F5FA0D9BF13C /* Pods_ChangePasswordModule.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		448FB12822E7113C000A2D17 = {
+			isa = PBXGroup;
+			children = (
+				448FB19022E7348E000A2D17 /* ChangePasswordModule.podspec */,
+				448FB17822E73367000A2D17 /* ChangeEmailModule.podspec */,
+				448FB16622E7324F000A2D17 /* ProfileModule.podspec */,
+				448FB13322E7113C000A2D17 /* EurekaFormExample */,
+				448FB15622E731B0000A2D17 /* ProfileModule */,
+				448FB16D22E7334F000A2D17 /* ChangeEmailModule */,
+				448FB18522E73479000A2D17 /* ChangePasswordModule */,
+				448FB13222E7113C000A2D17 /* Products */,
+				1F192F60331DFD86D414511C /* Pods */,
+				220888AE985077E650D64C58 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		448FB13222E7113C000A2D17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				448FB13122E7113C000A2D17 /* EurekaFormExample.app */,
+				448FB15522E731AF000A2D17 /* ProfileModule.framework */,
+				448FB16C22E7334F000A2D17 /* ChangeEmailModule.framework */,
+				448FB18422E73479000A2D17 /* ChangePasswordModule.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		448FB13322E7113C000A2D17 /* EurekaFormExample */ = {
+			isa = PBXGroup;
+			children = (
+				448FB13422E7113C000A2D17 /* AppDelegate.swift */,
+				448FB13622E7113C000A2D17 /* ViewController.swift */,
+				448FB13822E7113C000A2D17 /* Main.storyboard */,
+				448FB13B22E7113D000A2D17 /* Assets.xcassets */,
+				448FB13D22E7113D000A2D17 /* LaunchScreen.storyboard */,
+				448FB14022E7113D000A2D17 /* Info.plist */,
+			);
+			path = EurekaFormExample;
+			sourceTree = "<group>";
+		};
+		448FB15622E731B0000A2D17 /* ProfileModule */ = {
+			isa = PBXGroup;
+			children = (
+				448FB16322E731B8000A2D17 /* Assets */,
+				448FB16222E731B3000A2D17 /* Classes */,
+				448FB15722E731B0000A2D17 /* ProfileModule.h */,
+				448FB15822E731B0000A2D17 /* Info.plist */,
+			);
+			path = ProfileModule;
+			sourceTree = "<group>";
+		};
+		448FB16222E731B3000A2D17 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				448FB14822E71DC1000A2D17 /* ProfileViewController.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		448FB16322E731B8000A2D17 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				448FB16422E731CE000A2D17 /* Profile.storyboard */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		448FB16D22E7334F000A2D17 /* ChangeEmailModule */ = {
+			isa = PBXGroup;
+			children = (
+				448FB17A22E733F8000A2D17 /* Assets */,
+				448FB17922E733F3000A2D17 /* Classes */,
+				448FB16E22E7334F000A2D17 /* ChangeEmailModule.h */,
+				448FB16F22E7334F000A2D17 /* Info.plist */,
+			);
+			path = ChangeEmailModule;
+			sourceTree = "<group>";
+		};
+		448FB17922E733F3000A2D17 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				448FB14A22E72632000A2D17 /* ChangeEmailViewController.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		448FB17A22E733F8000A2D17 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				448FB17D22E7340F000A2D17 /* ChangeEmail.storyboard */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		448FB18522E73479000A2D17 /* ChangePasswordModule */ = {
+			isa = PBXGroup;
+			children = (
+				448FB19222E734BF000A2D17 /* Classes */,
+				448FB19122E734BB000A2D17 /* Assets */,
+				448FB18622E73479000A2D17 /* ChangePasswordModule.h */,
+				448FB18722E73479000A2D17 /* Info.plist */,
+			);
+			path = ChangePasswordModule;
+			sourceTree = "<group>";
+		};
+		448FB19122E734BB000A2D17 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				448FB19322E734CB000A2D17 /* ChangePassword.storyboard */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		448FB19222E734BF000A2D17 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				448FB14E22E72CD0000A2D17 /* ChangePasswordViewController.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		448FB15022E731AF000A2D17 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				448FB15922E731B0000A2D17 /* ProfileModule.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		448FB16722E7334F000A2D17 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				448FB17022E7334F000A2D17 /* ChangeEmailModule.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		448FB17F22E73479000A2D17 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				448FB18822E73479000A2D17 /* ChangePasswordModule.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		448FB13022E7113C000A2D17 /* EurekaFormExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 448FB14322E7113D000A2D17 /* Build configuration list for PBXNativeTarget "EurekaFormExample" */;
+			buildPhases = (
+				943D9EFC51283B1AB77B4F2F /* [CP] Check Pods Manifest.lock */,
+				448FB12D22E7113C000A2D17 /* Sources */,
+				448FB12E22E7113C000A2D17 /* Frameworks */,
+				448FB12F22E7113C000A2D17 /* Resources */,
+				C8087A38001F16D5AA5D24D0 /* [CP] Embed Pods Frameworks */,
+				448FB16122E731B0000A2D17 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				448FB15B22E731B0000A2D17 /* PBXTargetDependency */,
+				448FB17222E7334F000A2D17 /* PBXTargetDependency */,
+				448FB18A22E73479000A2D17 /* PBXTargetDependency */,
+			);
+			name = EurekaFormExample;
+			productName = EurekaFormExample;
+			productReference = 448FB13122E7113C000A2D17 /* EurekaFormExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		448FB15422E731AF000A2D17 /* ProfileModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 448FB15E22E731B0000A2D17 /* Build configuration list for PBXNativeTarget "ProfileModule" */;
+			buildPhases = (
+				CA67B72E635862BB827F904B /* [CP] Check Pods Manifest.lock */,
+				448FB15022E731AF000A2D17 /* Headers */,
+				448FB15122E731AF000A2D17 /* Sources */,
+				448FB15222E731AF000A2D17 /* Frameworks */,
+				448FB15322E731AF000A2D17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProfileModule;
+			productName = ProfileModule;
+			productReference = 448FB15522E731AF000A2D17 /* ProfileModule.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		448FB16B22E7334F000A2D17 /* ChangeEmailModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 448FB17722E7334F000A2D17 /* Build configuration list for PBXNativeTarget "ChangeEmailModule" */;
+			buildPhases = (
+				A4B21633427F4AF2FED68F2D /* [CP] Check Pods Manifest.lock */,
+				448FB16722E7334F000A2D17 /* Headers */,
+				448FB16822E7334F000A2D17 /* Sources */,
+				448FB16922E7334F000A2D17 /* Frameworks */,
+				448FB16A22E7334F000A2D17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChangeEmailModule;
+			productName = ChangeEmailModule;
+			productReference = 448FB16C22E7334F000A2D17 /* ChangeEmailModule.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		448FB18322E73479000A2D17 /* ChangePasswordModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 448FB18F22E73479000A2D17 /* Build configuration list for PBXNativeTarget "ChangePasswordModule" */;
+			buildPhases = (
+				68E73E909519A1CEB0C6B26D /* [CP] Check Pods Manifest.lock */,
+				448FB17F22E73479000A2D17 /* Headers */,
+				448FB18022E73479000A2D17 /* Sources */,
+				448FB18122E73479000A2D17 /* Frameworks */,
+				448FB18222E73479000A2D17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChangePasswordModule;
+			productName = ChangePasswordModule;
+			productReference = 448FB18422E73479000A2D17 /* ChangePasswordModule.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		448FB12922E7113C000A2D17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				DefaultBuildSystemTypeForWorkspace = Original;
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "David Thorn";
+				TargetAttributes = {
+					448FB13022E7113C000A2D17 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					448FB15422E731AF000A2D17 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					448FB16B22E7334F000A2D17 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					448FB18322E73479000A2D17 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 448FB12C22E7113C000A2D17 /* Build configuration list for PBXProject "EurekaFormExample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 448FB12822E7113C000A2D17;
+			productRefGroup = 448FB13222E7113C000A2D17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				448FB13022E7113C000A2D17 /* EurekaFormExample */,
+				448FB15422E731AF000A2D17 /* ProfileModule */,
+				448FB16B22E7334F000A2D17 /* ChangeEmailModule */,
+				448FB18322E73479000A2D17 /* ChangePasswordModule */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		448FB12F22E7113C000A2D17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				448FB13F22E7113D000A2D17 /* LaunchScreen.storyboard in Resources */,
+				448FB13C22E7113D000A2D17 /* Assets.xcassets in Resources */,
+				448FB13A22E7113C000A2D17 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		448FB15322E731AF000A2D17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				448FB16522E731CE000A2D17 /* Profile.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		448FB16A22E7334F000A2D17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				448FB17E22E7340F000A2D17 /* ChangeEmail.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		448FB18222E73479000A2D17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				448FB19422E734CB000A2D17 /* ChangePassword.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		68E73E909519A1CEB0C6B26D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChangePasswordModule-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		943D9EFC51283B1AB77B4F2F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EurekaFormExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4B21633427F4AF2FED68F2D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChangeEmailModule-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8087A38001F16D5AA5D24D0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EurekaFormExample/Pods-EurekaFormExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EurekaFormExample/Pods-EurekaFormExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EurekaFormExample/Pods-EurekaFormExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA67B72E635862BB827F904B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ProfileModule-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		448FB12D22E7113C000A2D17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				448FB13722E7113C000A2D17 /* ViewController.swift in Sources */,
+				448FB13522E7113C000A2D17 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		448FB15122E731AF000A2D17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				448FB17C22E73402000A2D17 /* ProfileViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		448FB16822E7334F000A2D17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				448FB17B22E733FF000A2D17 /* ChangeEmailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		448FB18022E73479000A2D17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				448FB19522E734D6000A2D17 /* ChangePasswordViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		448FB15B22E731B0000A2D17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 448FB15422E731AF000A2D17 /* ProfileModule */;
+			targetProxy = 448FB15A22E731B0000A2D17 /* PBXContainerItemProxy */;
+		};
+		448FB17222E7334F000A2D17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 448FB16B22E7334F000A2D17 /* ChangeEmailModule */;
+			targetProxy = 448FB17122E7334F000A2D17 /* PBXContainerItemProxy */;
+		};
+		448FB18A22E73479000A2D17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 448FB18322E73479000A2D17 /* ChangePasswordModule */;
+			targetProxy = 448FB18922E73479000A2D17 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		448FB13822E7113C000A2D17 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				448FB13922E7113C000A2D17 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		448FB13D22E7113D000A2D17 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				448FB13E22E7113D000A2D17 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		448FB14122E7113D000A2D17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		448FB14222E7113D000A2D17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		448FB14422E7113D000A2D17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F5AF086C6C84B4051662842 /* Pods-EurekaFormExample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EurekaFormExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = thorn.james.david.EurekaFormExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		448FB14522E7113D000A2D17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B492E1DA4093CB156557F50E /* Pods-EurekaFormExample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EurekaFormExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = thorn.james.david.EurekaFormExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		448FB15F22E731B0000A2D17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 659A31C510448BBB44E9645D /* Pods-ProfileModule.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ProfileModule/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = thorn.james.david.ProfileModule;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		448FB16022E731B0000A2D17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 790E407332E36C2E35DB15BA /* Pods-ProfileModule.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ProfileModule/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = thorn.james.david.ProfileModule;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		448FB17522E7334F000A2D17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69E7F11A4CAA7C51049AA7A4 /* Pods-ChangeEmailModule.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ChangeEmailModule/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = thorn.james.david.ChangeEmailModule;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		448FB17622E7334F000A2D17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4057E71A73DA6CE12276906B /* Pods-ChangeEmailModule.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ChangeEmailModule/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = thorn.james.david.ChangeEmailModule;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		448FB18D22E73479000A2D17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 227379B02DBDE9851A5D92C8 /* Pods-ChangePasswordModule.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ChangePasswordModule/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = thorn.james.david.ChangePasswordModule;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		448FB18E22E73479000A2D17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EB5927C84BDDAA6434579BA /* Pods-ChangePasswordModule.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ChangePasswordModule/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = thorn.james.david.ChangePasswordModule;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		448FB12C22E7113C000A2D17 /* Build configuration list for PBXProject "EurekaFormExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				448FB14122E7113D000A2D17 /* Debug */,
+				448FB14222E7113D000A2D17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		448FB14322E7113D000A2D17 /* Build configuration list for PBXNativeTarget "EurekaFormExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				448FB14422E7113D000A2D17 /* Debug */,
+				448FB14522E7113D000A2D17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		448FB15E22E731B0000A2D17 /* Build configuration list for PBXNativeTarget "ProfileModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				448FB15F22E731B0000A2D17 /* Debug */,
+				448FB16022E731B0000A2D17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		448FB17722E7334F000A2D17 /* Build configuration list for PBXNativeTarget "ChangeEmailModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				448FB17522E7334F000A2D17 /* Debug */,
+				448FB17622E7334F000A2D17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		448FB18F22E73479000A2D17 /* Build configuration list for PBXNativeTarget "ChangePasswordModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				448FB18D22E73479000A2D17 /* Debug */,
+				448FB18E22E73479000A2D17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 448FB12922E7113C000A2D17 /* Project object */;
+}

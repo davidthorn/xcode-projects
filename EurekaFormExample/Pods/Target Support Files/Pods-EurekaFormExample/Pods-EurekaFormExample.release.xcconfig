@@ -1,0 +1,11 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/ChangeEmailModule" "${PODS_CONFIGURATION_BUILD_DIR}/ChangePasswordModule" "${PODS_CONFIGURATION_BUILD_DIR}/Eureka" "${PODS_CONFIGURATION_BUILD_DIR}/ImageRow" "${PODS_CONFIGURATION_BUILD_DIR}/ProfileModule"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/ChangeEmailModule/ChangeEmailModule.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/ChangePasswordModule/ChangePasswordModule.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Eureka/Eureka.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/ImageRow/ImageRow.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/ProfileModule/ProfileModule.framework/Headers"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_LDFLAGS = $(inherited) -framework "ChangeEmailModule" -framework "ChangePasswordModule" -framework "Eureka" -framework "Foundation" -framework "ImageRow" -framework "ProfileModule" -framework "UIKit"
+OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods

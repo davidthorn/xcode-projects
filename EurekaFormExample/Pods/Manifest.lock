@@ -1,0 +1,44 @@
+PODS:
+  - ChangeEmailModule (0.1.0):
+    - Eureka
+  - ChangePasswordModule (0.1.0):
+    - Eureka
+  - Eureka (5.0.0)
+  - ImageRow (4.0.0):
+    - Eureka (~> 5.0)
+  - ProfileModule (0.1.0):
+    - ChangeEmailModule
+    - ChangePasswordModule
+    - Eureka
+    - ImageRow
+
+DEPENDENCIES:
+  - ChangeEmailModule (from `.`)
+  - ChangePasswordModule (from `.`)
+  - Eureka
+  - ImageRow (~> 4.0)
+  - ProfileModule (from `.`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Eureka
+    - ImageRow
+
+EXTERNAL SOURCES:
+  ChangeEmailModule:
+    :path: "."
+  ChangePasswordModule:
+    :path: "."
+  ProfileModule:
+    :path: "."
+
+SPEC CHECKSUMS:
+  ChangeEmailModule: a29bf9be304195993adf4622a55ac48f6a89c8e9
+  ChangePasswordModule: 1c28a783c21cbf77df57093629c38e4bd0655ad9
+  Eureka: 0f64f477ec8ef6201c6fec143d60ff5c201cf654
+  ImageRow: e65b2e1a33f89062bf2a553a2aad61d975eb7428
+  ProfileModule: 796fefe4542c6c17607b07ea796194a1950a5861
+
+PODFILE CHECKSUM: 0bb76376297103fb2176fa8f7aff2bf0d1937ab4
+
+COCOAPODS: 1.7.2

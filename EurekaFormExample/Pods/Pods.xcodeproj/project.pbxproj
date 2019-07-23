@@ -1,0 +1,2395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		027BE1A3D6D199807747737515F33E6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BB1484A863E4462B40CB081D18285B5 /* Foundation.framework */; };
+		02CBCFF358D0ACB44A6A97A8725CCEC6 /* NavigationAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D550884AD73FAC1F19E025B9F5C661F /* NavigationAccessoryView.swift */; };
+		033662C775DC52BB58059FA98CA4CB81 /* ChangeEmailModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2BA65279F1D7389F8D942E2BA8E959 /* ChangeEmailModule-dummy.m */; };
+		05759C3BE7B3F6F4EC1174985B2A1B5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BB1484A863E4462B40CB081D18285B5 /* Foundation.framework */; };
+		088BCDCF766CC71D1345DD1BD6CEFB32 /* Eureka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BEFB4785D575639CB4DA13773B42314 /* Eureka.framework */; };
+		0B43A167F698ACB4F730EA64F6C461CD /* Form.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20872CF5E80BBEC9DE00D373058B73D0 /* Form.swift */; };
+		0BA213AE19FB6632ABD78EFEE206E18B /* RuleRegExp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F453896CBDEC3606EFB74D4772E57EA /* RuleRegExp.swift */; };
+		0BBECF100E45E15C520E337CFE6F2DEB /* ImageRow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A13BEDB3841B5DCF32D4E479A793584F /* ImageRow.framework */; };
+		0CB0FF20D46A5392193B455F54578CA6 /* RowProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ADA475EBAC72185FF66C9E7B7A60AD /* RowProtocols.swift */; };
+		1184AEE11A1EB69DC5E78DCF26CDC886 /* SelectableRowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11FEBDC1ED2B0B352037DA6E5DDD884 /* SelectableRowType.swift */; };
+		121BE4F50E6F143945D18D3CFE755A2F /* RuleEqualsToRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC4EFBA023F0B9B03E8829BDDF58AD5 /* RuleEqualsToRow.swift */; };
+		121CA0DC2B9B068C002852D92BF788EE /* Pods-ProfileModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 63EE9A482826855AAE30F7E028790B70 /* Pods-ProfileModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1276FC9F34978191AAE789671A78E69A /* Pods-ChangeEmailModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C84E563622D06C9864D67891DDCF9A3B /* Pods-ChangeEmailModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18D6A84164297BD83B5E39AC247E1D96 /* DoublePickerInputRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75E7FF701F14C25319D4D1728893B3D /* DoublePickerInputRow.swift */; };
+		1D00D942B3254A2690951EE54CD47021 /* PresenterRowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B38B757278ED3CD8E17DFFA9D7578FC /* PresenterRowType.swift */; };
+		255081A457995D132A82545C46F6AFE0 /* ChangeEmail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58317344589F44E3C7B935C37C991818 /* ChangeEmail.storyboard */; };
+		27ADB278CF30946D1387CCB42730D9C9 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBB7316BB8EBD149E56B812E54EC15A /* ImageCell.swift */; };
+		2C297B2B7A6B37C397D324A51F1D0D0C /* Pods-ChangePasswordModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9190F5E8DB849C75F7D713A503C4FBA1 /* Pods-ChangePasswordModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FEB5C040621F7A1BDC14E85DFA458BE /* DateInlineFieldRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714A37399199DDA509185D892EA3A1DF /* DateInlineFieldRow.swift */; };
+		318A3803FAC453EF2225C514C8B07E8F /* RuleURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4137B545256EDA8C3DE17211C1F95ED4 /* RuleURL.swift */; };
+		331E56D6546ECB5D29E7EEC242E14B32 /* RowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39ECDDBB44E0A7ECD17EAA7C49021A28 /* RowType.swift */; };
+		3F0BD60B0F445BDE5C391C8A23F523E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BB1484A863E4462B40CB081D18285B5 /* Foundation.framework */; };
+		4066D31243FF421ECD24DCDD63F1F401 /* ChangeEmailModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47701597379D9CB02E2D88303A1D6EED /* ChangeEmailModule.framework */; };
+		40940460BA910B7BD50C7E7947A6DEA4 /* CellType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE75BEC9410F2E842CECEE08ADD6B537 /* CellType.swift */; };
+		42CAE3C91B930422680E4BB94C26D31C /* RowControllerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1324E6CD39ED5822E16292832502930F /* RowControllerType.swift */; };
+		4CEA6307A6D4456810FC5371F94C002C /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2218D0865DD57DBE754556BE7CAD8976 /* Helpers.swift */; };
+		4F3107FF28393D7CC501B655FDCD8389 /* RuleLength.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED65D64C93AF498ADC5756B4B1A22DB /* RuleLength.swift */; };
+		50119635448522840577500794C00A39 /* Pods-ChangePasswordModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E83AAC6E3C9F9536EF8452993CCF8518 /* Pods-ChangePasswordModule-dummy.m */; };
+		51884F2F70363AF1C0AA2387C7C0FC2E /* ActionSheetRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDCAC44058E24BEEA92CFAAD072BCAF /* ActionSheetRow.swift */; };
+		533B28E9947262FA12C1786A06A43B6A /* SegmentedRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111F1A699ECE86A9B42C764E4D5B2E9A /* SegmentedRow.swift */; };
+		56203C57523AFDCD33D088BE35EB8D60 /* DateRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B0C3E86C28A8052B91144FCD03F0BB /* DateRow.swift */; };
+		5A14709C02D945CBCC612DA4E233D31D /* StepperRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B557AFCA262147AF1A0E3773170678D0 /* StepperRow.swift */; };
+		5B7D4173C292EE51F6BA9466B8DA0AA5 /* ImageRow-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A30EE0D154E79E223694355DA3DF4776 /* ImageRow-dummy.m */; };
+		5DA93A0DAC6748E243EC7E7D66DF6A16 /* FieldRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC547FEFDB19776CBAB9FEC0A2CFDD5 /* FieldRow.swift */; };
+		5F0A266DDEE31F3C7A8A6CA80869E8A0 /* Eureka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BEFB4785D575639CB4DA13773B42314 /* Eureka.framework */; };
+		5FDFAE21552EC2473B9E0C7345CDDB93 /* Eureka-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B787B9737B6BE196A3DF7FCFB0B7D7A /* Eureka-dummy.m */; };
+		60D1DBDA39F557EFA017BFE43E77EDFC /* DoublePickerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407D5C5A06ACB2EE9947B2F33BCC15FF /* DoublePickerRow.swift */; };
+		616F3475011946C6B056D7E8434EA50F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BB1484A863E4462B40CB081D18285B5 /* Foundation.framework */; };
+		61D0EC49DA1C2CF031467CD56A7D2B52 /* ImageRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C300DF0D056352D7F65D90B6FA7954 /* ImageRow.swift */; };
+		61E1394EA7E44296BB296A5E92F3D6C8 /* Eureka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BEFB4785D575639CB4DA13773B42314 /* Eureka.framework */; };
+		6B09B7BF0D0D910963D44AD225484656 /* Pods-ChangeEmailModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 472D0C3ABD64D05B6C16FE98C1B9560B /* Pods-ChangeEmailModule-dummy.m */; };
+		6DBEA669915D4F326FED900BCCCF79FE /* ChangeEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B026242803CD6593832F60FC1D83805 /* ChangeEmailViewController.swift */; };
+		6E23E670FC1701635AEB21AE2AA8D38C /* OptionsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A1AD7CC1869D42F2A41E8945E5B010 /* OptionsRow.swift */; };
+		723FE33C27B955054FBAC553221D9A4F /* ChangePassword.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB7DDC08FE19C62FBDD01F8182821001 /* ChangePassword.storyboard */; };
+		727DD6150CDB03E402F2A9CFAE8AC7EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BB1484A863E4462B40CB081D18285B5 /* Foundation.framework */; };
+		78634597F3E47E5CE0D46AAE63EDADBD /* MultipleSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6212093D024341316E2043AB310046 /* MultipleSelectorViewController.swift */; };
+		7BA241999A0D01B3A10529B205CE5D2E /* MultipleSelectorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B2DF1F539AB1BA926F2F0EAFE8AA2C /* MultipleSelectorRow.swift */; };
+		7CA2FDA047E519573F49F14778C95C40 /* ButtonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B75A0CBECCD2C625AC66254794CCD6 /* ButtonRow.swift */; };
+		7EA2FFF279578F93714AA3BFEEA272AE /* PopoverSelectorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F2C9B5C18A0BA4CCF37BA53DD0B730 /* PopoverSelectorRow.swift */; };
+		7F3D2E7AEB625DA56DC46E01D01EC5F8 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F603E2A706C0507F469FDACB6199193D /* Cell.swift */; };
+		8013521BCCBD2CF28B3CBFB5790F8369 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7482EDA3D43FB359787638C91A44521E /* Validation.swift */; };
+		803A87E8D08EC74692D001EF5BB47BDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BB1484A863E4462B40CB081D18285B5 /* Foundation.framework */; };
+		8220CD8814C8382623D5184A9FB567AA /* ChangePasswordModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E269D0C9A8A95451057D0931F68F545 /* ChangePasswordModule.framework */; };
+		83788EA6BDF19C2B0EFBC1C0A6EAD717 /* PickerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72C690CA3D4DD23B854128163965B36 /* PickerRow.swift */; };
+		867EE8DAF5909757AB925702ECFBAEA5 /* ProfileModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 522C20A6772ABD266365310050129729 /* ProfileModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8738989A48495E7B6B6D2E4ACD25EDF6 /* Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D56199836F038523B58F7BE78C4066 /* Core.swift */; };
+		88A43CAC7F42926EBCB09BD7AC7674B4 /* DateFieldRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DEC4FFC95DAAAF8294F6187B6AE2A0 /* DateFieldRow.swift */; };
+		89F9C664C125CA2672C9179B3251FB1C /* RuleRequired.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FBC40FB8B90E1D5983B221BF07853F /* RuleRequired.swift */; };
+		8A9B6CCDE4D71BDB42B8A9E313D6EA7B /* GenericMultipleSelectorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9064B35EBF6A924BC774ED3D764BF62 /* GenericMultipleSelectorRow.swift */; };
+		8C669E01A72CC2F190D9F2FBBB9C97B8 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A61AB14327736F8BCACCB58AB3009EE /* Operators.swift */; };
+		8CCCA1A81562415EE401B748E2703245 /* DateInlineRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9248276BBD7582C715CB50E9A009BF /* DateInlineRow.swift */; };
+		8CF831166D4F1023BCFF3BE311C0C4E2 /* SelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A362DE59890A7A698055B176EE77D0FC /* SelectorViewController.swift */; };
+		8F6396319FC644FB8C967AC57319B986 /* ChangePasswordModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A81C511B6ECEDB3E0A9E6F37B83C44F /* ChangePasswordModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FD6E9B1FD39E0EB83D2523C07132F83 /* InlineRowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A41CB2847026F25E3696FE5C5307059 /* InlineRowType.swift */; };
+		90711EFC33F924F3DF90B11E2119D3EC /* ProfileModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B70787571793730F666C2BEAF5C9F08 /* ProfileModule-dummy.m */; };
+		92459AF27329668BDE529814A75B8DC1 /* SwitchRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56990B6E6EF66234A0F888E667105A84 /* SwitchRow.swift */; };
+		94785395A1AFBE0515FA449026375C14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BB1484A863E4462B40CB081D18285B5 /* Foundation.framework */; };
+		9559D6F6515057C76774017D6CC1F453 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BB1484A863E4462B40CB081D18285B5 /* Foundation.framework */; };
+		98A443B4D7ADA9B93A1ECE3E56F127E0 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401CE6245E66548CD284B420A13B661E /* Section.swift */; };
+		9A994D2A591F3560605E9E827B23402A /* RuleEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFC4DF9C7237AA0DD8EE8B501EDDB67 /* RuleEmail.swift */; };
+		9C5F2D6AB3C33EBB32A5FB34D84E3F98 /* Pods-ProfileModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0419E93C8A84848E105B2A8FA3874B /* Pods-ProfileModule-dummy.m */; };
+		A236C65402E67FBF6B8D5CA9087443EC /* AlertOptionsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF073F536AD2055ED582AB57C5B40586 /* AlertOptionsRow.swift */; };
+		A2726BAB86C3F80D97F9AF3A82FCBD2F /* TriplePickerInputRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625F2B954E210FA48E49D7EFB1EF64A1 /* TriplePickerInputRow.swift */; };
+		A350FFFEE25A0D2B222A408AD6D6C0D7 /* SwipeActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2800AC72EE42581BCB5EE25B703F315 /* SwipeActions.swift */; };
+		A51712A972C0D3B42A05D8C5111CD738 /* DatePickerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7512A5E74BA822B61905CA60B782C1E /* DatePickerRow.swift */; };
+		A5BA8AB7ED71115A392E008B972C0177 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BB1484A863E4462B40CB081D18285B5 /* Foundation.framework */; };
+		A8EA552CC52D19ED797709144919E28D /* PickerInputRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA129217981D7360D810AC7BD8E82641 /* PickerInputRow.swift */; };
+		A982799567D8B7AE4C77676E8A1C0121 /* RuleClosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74831519C1F70DC0511F63162A426B34 /* RuleClosure.swift */; };
+		AFD24CF3649E39011BAB2F799314BDDA /* FieldsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E462140D5B0BCAC6C5191EBCBE0DA3A2 /* FieldsRow.swift */; };
+		B24EE5D6DA7DFEBB9610616C54506FB5 /* ChangePasswordModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E3F0494AEF680F72D0CCCD74E40A6E /* ChangePasswordModule-dummy.m */; };
+		B6271DD5A21FE1854C12EF52A68156B5 /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145D16EB90E13B62ACA8BD93DF1EDCEF /* ChangePasswordViewController.swift */; };
+		B7E4BCD67F6F2B85121060850279D93B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD49A43DA512CA7673DE739D436F22F /* UIKit.framework */; };
+		B8F78C32E63EA0B3404E9E339E3B865E /* SelectableSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236D924FB7779991951804976A9000F4 /* SelectableSection.swift */; };
+		BA82ACEBA2569061419D6A1B3C414135 /* DecimalFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21841E1F685C8FFC189B591972422BBA /* DecimalFormatter.swift */; };
+		BA8462BB0ADA611EC186F04F1C687B94 /* Pods-EurekaFormExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5220537A7F0E00F4F232CDDC4BC3567 /* Pods-EurekaFormExample-dummy.m */; };
+		BB82B413AC63540E9EC07D97660CFB11 /* TriplePickerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DF90CC762BECFEC0D445D73AF8BBE /* TriplePickerRow.swift */; };
+		BCEBE598AEBCD79170E8D4BB61693641 /* Pods-EurekaFormExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DF0CE9C0C18CBFCF962DA25110DDDB6 /* Pods-EurekaFormExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFDC1A4DC29E3724E8ED6BA239BF501D /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA6718E1B126F242640E8624C7970FB /* ProfileViewController.swift */; };
+		BFE0E77BC7CFC9E3AA4E6C24F9888CB0 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4DA2033BC817111779371DFE17EF4AF /* Profile.storyboard */; };
+		C5D60ED952CEB87A664AD482EC5EC37D /* ImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592126E12F5DC21DD3E22DED4FC11FA2 /* ImagePickerController.swift */; };
+		C6BEF235705360BE09DE811AE24A4901 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3141C1752042D0B55B6F566C579A5407 /* Protocols.swift */; };
+		C8DDE12E47C32F28BCEB3440510EA873 /* CheckRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798895980409692A62E3947806C29906 /* CheckRow.swift */; };
+		CB90934498F08FAF608C612DA5FEBC51 /* SliderRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4AA9EB2A0E5C344C17F20C2B386371 /* SliderRow.swift */; };
+		CEC9726BA7F753865EA2436D4CB45303 /* RuleRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD45CEFAB600EE48528C8BA9B80BF0A /* RuleRange.swift */; };
+		D28A29A0A8A9ED6DEC0F7DB1CA589A18 /* Eureka.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 16152BAEFFD0E2D44D332950C000F553 /* Eureka.bundle */; };
+		D3E5BDD35464BBC5602DC80574FCBD02 /* PickerInlineRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31D2C4C51B5D80F8F1F678A93DFB304 /* PickerInlineRow.swift */; };
+		D52E8848A6909B3C5CA388DB227AA6EC /* ImageRow-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4287559D6B748B724F552F573A235645 /* ImageRow-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D55B1D5D84E8E9F0A29CF1DA1C6259CA /* HeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC79518940346E9BE0AD4CA8491A012 /* HeaderFooterView.swift */; };
+		D5CFAD5B0ABEDD9503311173ADBE02DE /* ChangeEmailModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67B40B32F04994CBCB9513AB03B7E13A /* ChangeEmailModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5F2B1A0A5242B05263E53E067A92FBD /* ListCheckRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7879290F2217DDFDFC9FCE05B269499A /* ListCheckRow.swift */; };
+		DC02136E66E95724841FCF7FF7F69C09 /* ButtonRowWithPresent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB21E328B9F96E7417E9DB9BFDFDB17B /* ButtonRowWithPresent.swift */; };
+		DD29914BA6C48A35C2BFD6F51FD3FFC2 /* LabelRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472751B3CB084DAF294EC6A921FC28DC /* LabelRow.swift */; };
+		E2665255213C21096C545626215F1B61 /* TextAreaRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AD894FA8BE6FDD4D062DB2EDEC10DC /* TextAreaRow.swift */; };
+		E28AC2D8FDA92B9A8B36822DD9E76753 /* Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BAD79A2524557FA8CF7012C67D374C /* Row.swift */; };
+		E52ADF43726EEDBA517F54FEEDC7FCD4 /* AlertRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18459DC491C983DFD513A755E7FF2DD /* AlertRow.swift */; };
+		E745E0EACF6B77ABE9FA0F92833CC0F5 /* BaseRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2832478875B67A751A80BFC6F4E801A /* BaseRow.swift */; };
+		EAA5752BE8C342F2F8AA77244820B8EE /* Eureka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BEFB4785D575639CB4DA13773B42314 /* Eureka.framework */; };
+		EF2F534202DEF83C02D1D4730BD96551 /* Eureka-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A3DFD1AF09C089F2A5845DE7F8073D6 /* Eureka-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F533A26D81DC5D98BAB38699A672FE31 /* SelectorAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04F720CD06B2FE220AEEE425B56F44B /* SelectorAlertController.swift */; };
+		FC9E04E9AE889B98950F660F4B706F9A /* SelectorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50209A956FBB7455746EC7C39AE99E27 /* SelectorRow.swift */; };
+		FD8955489A5121D8A13A012B57C29B79 /* PushRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488F4BEC3103A4173AF11707D2288DFC /* PushRow.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D882F8D12471AE40B6DC71912BA6785 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88BE8BE7A2FE6CED4193CCD8FF3CBEF7;
+			remoteInfo = Eureka;
+		};
+		0F3720A84B643177143DA7658F11992F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1A1CA827D4678039BF74103FC983833;
+			remoteInfo = ChangeEmailModule;
+		};
+		208E598ED18CB092B2A8338C28C73073 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B73EBD6544CF7745DF5F90ADC4E5B685;
+			remoteInfo = ChangePasswordModule;
+		};
+		34520FFBC2D26B49C2B4319919E04375 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1A1CA827D4678039BF74103FC983833;
+			remoteInfo = ChangeEmailModule;
+		};
+		363BE551ED7CBDE0BC14506BC61AECC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDEED0C73551C2A79D389CF0E6A14650;
+			remoteInfo = ImageRow;
+		};
+		46C0EDB9DFB19316B89D5522EEE19490 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B73EBD6544CF7745DF5F90ADC4E5B685;
+			remoteInfo = ChangePasswordModule;
+		};
+		48C796D1CA9CCEBB99DB5900FB614D96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88BE8BE7A2FE6CED4193CCD8FF3CBEF7;
+			remoteInfo = Eureka;
+		};
+		5A5370A33A72D39B7F97D0E1DCF87614 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDEED0C73551C2A79D389CF0E6A14650;
+			remoteInfo = ImageRow;
+		};
+		5C3D62772085FCD5933E68AD42153F61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88BE8BE7A2FE6CED4193CCD8FF3CBEF7;
+			remoteInfo = Eureka;
+		};
+		5E76DFC93379A76B281592FE2F1C990B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A4C23B5D1E626D77EF3C7E17101F1BC;
+			remoteInfo = ProfileModule;
+		};
+		8C946EBD04DEDC35718D659C1365F04D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1A1CA827D4678039BF74103FC983833;
+			remoteInfo = ChangeEmailModule;
+		};
+		A32EF29E758F9E80A31168C68CD12C63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88BE8BE7A2FE6CED4193CCD8FF3CBEF7;
+			remoteInfo = Eureka;
+		};
+		A708A751AE6BF5EEDF2FC89281D64408 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88BE8BE7A2FE6CED4193CCD8FF3CBEF7;
+			remoteInfo = Eureka;
+		};
+		A8BC2814DF7E4B283DE3C3A2ECA1BAD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88BE8BE7A2FE6CED4193CCD8FF3CBEF7;
+			remoteInfo = Eureka;
+		};
+		AE0E1D9CF53DFFB8339882503465AC50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88BE8BE7A2FE6CED4193CCD8FF3CBEF7;
+			remoteInfo = Eureka;
+		};
+		B3E7C7FE8690BC60AE035101142615E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B73EBD6544CF7745DF5F90ADC4E5B685;
+			remoteInfo = ChangePasswordModule;
+		};
+		B439A0ECF0564D76CB14DA5AE1891A38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDEED0C73551C2A79D389CF0E6A14650;
+			remoteInfo = ImageRow;
+		};
+		FF4A5A0822A1F5E9678594A5726E53F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88BE8BE7A2FE6CED4193CCD8FF3CBEF7;
+			remoteInfo = Eureka;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01E3F0494AEF680F72D0CCCD74E40A6E /* ChangePasswordModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ChangePasswordModule-dummy.m"; sourceTree = "<group>"; };
+		082977F3777A7D434AB35C357B487F83 /* Eureka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Eureka.framework; path = Eureka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		090B1907B9375C9B525796CF490DB9DE /* ImageRow-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImageRow-prefix.pch"; sourceTree = "<group>"; };
+		0AA6718E1B126F242640E8624C7970FB /* ProfileViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProfileViewController.swift; path = ProfileModule/Classes/ProfileViewController.swift; sourceTree = "<group>"; };
+		0CF69246DACE2FDFB5A06B6E2A2059FB /* Pods-ChangePasswordModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChangePasswordModule.debug.xcconfig"; sourceTree = "<group>"; };
+		110CD60A2E12D606EC4A40497F0AFADB /* ChangeEmailModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ChangeEmailModule.modulemap; sourceTree = "<group>"; };
+		111F1A699ECE86A9B42C764E4D5B2E9A /* SegmentedRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentedRow.swift; path = Source/Rows/SegmentedRow.swift; sourceTree = "<group>"; };
+		1324E6CD39ED5822E16292832502930F /* RowControllerType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RowControllerType.swift; path = Source/Core/RowControllerType.swift; sourceTree = "<group>"; };
+		145D16EB90E13B62ACA8BD93DF1EDCEF /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChangePasswordViewController.swift; path = ChangePasswordModule/Classes/ChangePasswordViewController.swift; sourceTree = "<group>"; };
+		14814D8E8C2ED139C35E3B9B8AA47F50 /* Pods-ProfileModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ProfileModule.modulemap"; sourceTree = "<group>"; };
+		158248282981B6BD14E4A6C24D336A16 /* Pods-EurekaFormExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EurekaFormExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		160674E5D5FA5AB966458FBE939DCF37 /* ProfileModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ProfileModule.framework; path = ProfileModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		16152BAEFFD0E2D44D332950C000F553 /* Eureka.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = Eureka.bundle; path = Source/Resources/Eureka.bundle; sourceTree = "<group>"; };
+		16A640880758B3EF2972C77BBB79C427 /* Pods-ProfileModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ProfileModule.debug.xcconfig"; sourceTree = "<group>"; };
+		16C1D5B525D2FD72CDA73128CA3A40CA /* ProfileModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ProfileModule.modulemap; sourceTree = "<group>"; };
+		1814C3CEEE4BCCEBF49ED5D8D0C236D5 /* Pods-ChangeEmailModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChangeEmailModule.release.xcconfig"; sourceTree = "<group>"; };
+		19B6B1E3DE1553BE3E4F28C88F9094CD /* Pods-ProfileModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ProfileModule.release.xcconfig"; sourceTree = "<group>"; };
+		1A81C511B6ECEDB3E0A9E6F37B83C44F /* ChangePasswordModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChangePasswordModule-umbrella.h"; sourceTree = "<group>"; };
+		1CD45CEFAB600EE48528C8BA9B80BF0A /* RuleRange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleRange.swift; path = Source/Validations/RuleRange.swift; sourceTree = "<group>"; };
+		1DB4F48B5D0099A790F5107B191055DB /* ImageRow.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ImageRow.xcconfig; sourceTree = "<group>"; };
+		2006C6BBB43EE9BDF961F523544BC28E /* ImageRow.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ImageRow.modulemap; sourceTree = "<group>"; };
+		20872CF5E80BBEC9DE00D373058B73D0 /* Form.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Form.swift; path = Source/Core/Form.swift; sourceTree = "<group>"; };
+		21841E1F685C8FFC189B591972422BBA /* DecimalFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DecimalFormatter.swift; path = Source/Rows/Common/DecimalFormatter.swift; sourceTree = "<group>"; };
+		2218D0865DD57DBE754556BE7CAD8976 /* Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helpers.swift; path = Source/Core/Helpers.swift; sourceTree = "<group>"; };
+		22ADA475EBAC72185FF66C9E7B7A60AD /* RowProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RowProtocols.swift; path = Source/Core/RowProtocols.swift; sourceTree = "<group>"; };
+		236D924FB7779991951804976A9000F4 /* SelectableSection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectableSection.swift; path = Source/Core/SelectableSection.swift; sourceTree = "<group>"; };
+		2655C5DAD9AB23DF5DC55CD152326D6F /* Pods-EurekaFormExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EurekaFormExample-frameworks.sh"; sourceTree = "<group>"; };
+		272133117E0E5FA1E94905F8899229E0 /* Pods-ProfileModule-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ProfileModule-acknowledgements.plist"; sourceTree = "<group>"; };
+		2A41CB2847026F25E3696FE5C5307059 /* InlineRowType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InlineRowType.swift; path = Source/Core/InlineRowType.swift; sourceTree = "<group>"; };
+		2AC4EFBA023F0B9B03E8829BDDF58AD5 /* RuleEqualsToRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleEqualsToRow.swift; path = Source/Validations/RuleEqualsToRow.swift; sourceTree = "<group>"; };
+		2B38B757278ED3CD8E17DFFA9D7578FC /* PresenterRowType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresenterRowType.swift; path = Source/Core/PresenterRowType.swift; sourceTree = "<group>"; };
+		2FC547FEFDB19776CBAB9FEC0A2CFDD5 /* FieldRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FieldRow.swift; path = Source/Rows/Common/FieldRow.swift; sourceTree = "<group>"; };
+		3141C1752042D0B55B6F566C579A5407 /* Protocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protocols.swift; path = Source/Rows/Common/Protocols.swift; sourceTree = "<group>"; };
+		361F6F2DEFEB052FF4C5AB6A68EF70DE /* ChangeEmailModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ChangeEmailModule-Info.plist"; sourceTree = "<group>"; };
+		39ECDDBB44E0A7ECD17EAA7C49021A28 /* RowType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RowType.swift; path = Source/Core/RowType.swift; sourceTree = "<group>"; };
+		3B026242803CD6593832F60FC1D83805 /* ChangeEmailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChangeEmailViewController.swift; path = ChangeEmailModule/Classes/ChangeEmailViewController.swift; sourceTree = "<group>"; };
+		3BB1484A863E4462B40CB081D18285B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3C17594A0408F1ABF3E63CDB07BD5B2F /* Pods_ProfileModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ProfileModule.framework; path = "Pods-ProfileModule.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C1AABEF451E1D5ECE17F900DD945FF1 /* Pods-ChangePasswordModule-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChangePasswordModule-acknowledgements.plist"; sourceTree = "<group>"; };
+		3D07EAC5B8DA819A2E0F9CF97DC3039E /* Pods-ProfileModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ProfileModule-Info.plist"; sourceTree = "<group>"; };
+		3D550884AD73FAC1F19E025B9F5C661F /* NavigationAccessoryView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NavigationAccessoryView.swift; path = Source/Core/NavigationAccessoryView.swift; sourceTree = "<group>"; };
+		3F39B9E171025C02D723C164ADD46EC6 /* Eureka.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Eureka.modulemap; sourceTree = "<group>"; };
+		401CE6245E66548CD284B420A13B661E /* Section.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Section.swift; path = Source/Core/Section.swift; sourceTree = "<group>"; };
+		407D5C5A06ACB2EE9947B2F33BCC15FF /* DoublePickerRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DoublePickerRow.swift; path = Source/Rows/DoublePickerRow.swift; sourceTree = "<group>"; };
+		4137B545256EDA8C3DE17211C1F95ED4 /* RuleURL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleURL.swift; path = Source/Validations/RuleURL.swift; sourceTree = "<group>"; };
+		419A1AA488C23219FEA9B40FE93F17A9 /* Pods-ChangeEmailModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChangeEmailModule-Info.plist"; sourceTree = "<group>"; };
+		4287559D6B748B724F552F573A235645 /* ImageRow-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImageRow-umbrella.h"; sourceTree = "<group>"; };
+		472751B3CB084DAF294EC6A921FC28DC /* LabelRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LabelRow.swift; path = Source/Rows/LabelRow.swift; sourceTree = "<group>"; };
+		472D0C3ABD64D05B6C16FE98C1B9560B /* Pods-ChangeEmailModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChangeEmailModule-dummy.m"; sourceTree = "<group>"; };
+		47701597379D9CB02E2D88303A1D6EED /* ChangeEmailModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ChangeEmailModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		488F4BEC3103A4173AF11707D2288DFC /* PushRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PushRow.swift; path = Source/Rows/PushRow.swift; sourceTree = "<group>"; };
+		4B6DF90CC762BECFEC0D445D73AF8BBE /* TriplePickerRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TriplePickerRow.swift; path = Source/Rows/TriplePickerRow.swift; sourceTree = "<group>"; };
+		4B787B9737B6BE196A3DF7FCFB0B7D7A /* Eureka-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Eureka-dummy.m"; sourceTree = "<group>"; };
+		4CFC4DF9C7237AA0DD8EE8B501EDDB67 /* RuleEmail.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleEmail.swift; path = Source/Validations/RuleEmail.swift; sourceTree = "<group>"; };
+		50209A956FBB7455746EC7C39AE99E27 /* SelectorRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectorRow.swift; path = Source/Rows/Common/SelectorRow.swift; sourceTree = "<group>"; };
+		522C20A6772ABD266365310050129729 /* ProfileModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ProfileModule-umbrella.h"; sourceTree = "<group>"; };
+		56990B6E6EF66234A0F888E667105A84 /* SwitchRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchRow.swift; path = Source/Rows/SwitchRow.swift; sourceTree = "<group>"; };
+		57D46579BA790E27360EBADE5911C0C9 /* ProfileModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ProfileModule-prefix.pch"; sourceTree = "<group>"; };
+		58317344589F44E3C7B935C37C991818 /* ChangeEmail.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = ChangeEmail.storyboard; path = ChangeEmailModule/Assets/ChangeEmail.storyboard; sourceTree = "<group>"; };
+		592126E12F5DC21DD3E22DED4FC11FA2 /* ImagePickerController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImagePickerController.swift; path = Sources/ImagePickerController.swift; sourceTree = "<group>"; };
+		5DD97FEE0050C4AFF0BC0B4ECE5A3467 /* Pods-ChangePasswordModule-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChangePasswordModule-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5F3AF131C0FC8E4D4CB020EFFC130E92 /* Pods-ChangeEmailModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChangeEmailModule.debug.xcconfig"; sourceTree = "<group>"; };
+		5F453896CBDEC3606EFB74D4772E57EA /* RuleRegExp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleRegExp.swift; path = Source/Validations/RuleRegExp.swift; sourceTree = "<group>"; };
+		602C13D4F78DED3F32D70215F94F0281 /* ChangeEmailModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ChangeEmailModule.framework; path = ChangeEmailModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6128750C520E079D1E87086EF1A6A824 /* Eureka-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Eureka-Info.plist"; sourceTree = "<group>"; };
+		625F2B954E210FA48E49D7EFB1EF64A1 /* TriplePickerInputRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TriplePickerInputRow.swift; path = Source/Rows/TriplePickerInputRow.swift; sourceTree = "<group>"; };
+		63EE9A482826855AAE30F7E028790B70 /* Pods-ProfileModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ProfileModule-umbrella.h"; sourceTree = "<group>"; };
+		6407D5EAE688B53FC2B56C0A39E569E5 /* Pods_ChangePasswordModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ChangePasswordModule.framework; path = "Pods-ChangePasswordModule.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		659178257C25B626D56BC0E867FA77ED /* Pods-EurekaFormExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EurekaFormExample.debug.xcconfig"; sourceTree = "<group>"; };
+		65DEC4FFC95DAAAF8294F6187B6AE2A0 /* DateFieldRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateFieldRow.swift; path = Source/Rows/Common/DateFieldRow.swift; sourceTree = "<group>"; };
+		67B40B32F04994CBCB9513AB03B7E13A /* ChangeEmailModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChangeEmailModule-umbrella.h"; sourceTree = "<group>"; };
+		6A3DFD1AF09C089F2A5845DE7F8073D6 /* Eureka-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Eureka-umbrella.h"; sourceTree = "<group>"; };
+		6A61AB14327736F8BCACCB58AB3009EE /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Source/Core/Operators.swift; sourceTree = "<group>"; };
+		6B9248276BBD7582C715CB50E9A009BF /* DateInlineRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateInlineRow.swift; path = Source/Rows/DateInlineRow.swift; sourceTree = "<group>"; };
+		6D14F883D2CE5EF78C4125CF83D4A646 /* ProfileModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ProfileModule-Info.plist"; sourceTree = "<group>"; };
+		6D34739DAF2C3D99D1C8EDF23DE52866 /* Pods-ChangePasswordModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChangePasswordModule.release.xcconfig"; sourceTree = "<group>"; };
+		6E27F748E65EA9DD03278F6914A4455D /* Pods_ChangeEmailModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ChangeEmailModule.framework; path = "Pods-ChangeEmailModule.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ED65D64C93AF498ADC5756B4B1A22DB /* RuleLength.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleLength.swift; path = Source/Validations/RuleLength.swift; sourceTree = "<group>"; };
+		70B0C3E86C28A8052B91144FCD03F0BB /* DateRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateRow.swift; path = Source/Rows/DateRow.swift; sourceTree = "<group>"; };
+		714A37399199DDA509185D892EA3A1DF /* DateInlineFieldRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateInlineFieldRow.swift; path = Source/Rows/Common/DateInlineFieldRow.swift; sourceTree = "<group>"; };
+		7482EDA3D43FB359787638C91A44521E /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Core/Validation.swift; sourceTree = "<group>"; };
+		74831519C1F70DC0511F63162A426B34 /* RuleClosure.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleClosure.swift; path = Source/Validations/RuleClosure.swift; sourceTree = "<group>"; };
+		75F2C9B5C18A0BA4CCF37BA53DD0B730 /* PopoverSelectorRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopoverSelectorRow.swift; path = Source/Rows/PopoverSelectorRow.swift; sourceTree = "<group>"; };
+		7879290F2217DDFDFC9FCE05B269499A /* ListCheckRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ListCheckRow.swift; path = Source/Rows/SelectableRows/ListCheckRow.swift; sourceTree = "<group>"; };
+		798895980409692A62E3947806C29906 /* CheckRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckRow.swift; path = Source/Rows/CheckRow.swift; sourceTree = "<group>"; };
+		7A903C93AC10383133C140AC9CA4F23C /* Pods_EurekaFormExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EurekaFormExample.framework; path = "Pods-EurekaFormExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B2E1E4127EBB1C47A495E0842E749F6 /* Pods-ChangePasswordModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChangePasswordModule-Info.plist"; sourceTree = "<group>"; };
+		7BEFB4785D575639CB4DA13773B42314 /* Eureka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Eureka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E015204703B1D5427A6C2277D10C630 /* ChangeEmailModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChangeEmailModule-prefix.pch"; sourceTree = "<group>"; };
+		805CC912D6BBF42A426207F0540C8622 /* Pods-ChangeEmailModule-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChangeEmailModule-acknowledgements.plist"; sourceTree = "<group>"; };
+		83B75A0CBECCD2C625AC66254794CCD6 /* ButtonRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonRow.swift; path = Source/Rows/ButtonRow.swift; sourceTree = "<group>"; };
+		83C52671A3BC65DF4A1F3CBF719F12BC /* Pods-EurekaFormExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EurekaFormExample.modulemap"; sourceTree = "<group>"; };
+		85A9C62BA4877340BA0A0E41709E190B /* ImageRow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ImageRow.framework; path = ImageRow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8846DE6EA32C4AD8BE1D36720E6807D6 /* ProfileModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ProfileModule.xcconfig; sourceTree = "<group>"; };
+		8B70787571793730F666C2BEAF5C9F08 /* ProfileModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ProfileModule-dummy.m"; sourceTree = "<group>"; };
+		8D0E2E5FB40E025BEBD2C1F21FF84103 /* ImageRow-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ImageRow-Info.plist"; sourceTree = "<group>"; };
+		906A0638A3C9FBF355AD0DB7DEFCD416 /* Pods-EurekaFormExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EurekaFormExample.release.xcconfig"; sourceTree = "<group>"; };
+		9190F5E8DB849C75F7D713A503C4FBA1 /* Pods-ChangePasswordModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ChangePasswordModule-umbrella.h"; sourceTree = "<group>"; };
+		95A1AD7CC1869D42F2A41E8945E5B010 /* OptionsRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OptionsRow.swift; path = Source/Rows/Common/OptionsRow.swift; sourceTree = "<group>"; };
+		97D56199836F038523B58F7BE78C4066 /* Core.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Core.swift; path = Source/Core/Core.swift; sourceTree = "<group>"; };
+		9B871FA471DD65E611D342AE061F66CC /* Pods-ChangeEmailModule-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChangeEmailModule-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9BBB7316BB8EBD149E56B812E54EC15A /* ImageCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageCell.swift; path = Sources/ImageCell.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DF0CE9C0C18CBFCF962DA25110DDDB6 /* Pods-EurekaFormExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EurekaFormExample-umbrella.h"; sourceTree = "<group>"; };
+		9E269D0C9A8A95451057D0931F68F545 /* ChangePasswordModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ChangePasswordModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E6212093D024341316E2043AB310046 /* MultipleSelectorViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipleSelectorViewController.swift; path = Source/Rows/Controllers/MultipleSelectorViewController.swift; sourceTree = "<group>"; };
+		A13BEDB3841B5DCF32D4E479A793584F /* ImageRow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ImageRow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A18459DC491C983DFD513A755E7FF2DD /* AlertRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlertRow.swift; path = Source/Rows/AlertRow.swift; sourceTree = "<group>"; };
+		A1C300DF0D056352D7F65D90B6FA7954 /* ImageRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageRow.swift; path = Sources/ImageRow.swift; sourceTree = "<group>"; };
+		A30EE0D154E79E223694355DA3DF4776 /* ImageRow-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ImageRow-dummy.m"; sourceTree = "<group>"; };
+		A31D2C4C51B5D80F8F1F678A93DFB304 /* PickerInlineRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PickerInlineRow.swift; path = Source/Rows/PickerInlineRow.swift; sourceTree = "<group>"; };
+		A362DE59890A7A698055B176EE77D0FC /* SelectorViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectorViewController.swift; path = Source/Rows/Controllers/SelectorViewController.swift; sourceTree = "<group>"; };
+		A4DA2033BC817111779371DFE17EF4AF /* Profile.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = Profile.storyboard; path = ProfileModule/Assets/Profile.storyboard; sourceTree = "<group>"; };
+		A72C690CA3D4DD23B854128163965B36 /* PickerRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PickerRow.swift; path = Source/Rows/PickerRow.swift; sourceTree = "<group>"; };
+		A881B73803235471B6B769FCDB27F167 /* Pods-ChangeEmailModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ChangeEmailModule.modulemap"; sourceTree = "<group>"; };
+		A8CD30FF6DD996662D6C8A334BEF8650 /* Eureka.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Eureka.xcconfig; sourceTree = "<group>"; };
+		AAEBF51D948AF688895346B63FD5F7C6 /* ChangePasswordModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ChangePasswordModule-Info.plist"; sourceTree = "<group>"; };
+		AB4AA9EB2A0E5C344C17F20C2B386371 /* SliderRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SliderRow.swift; path = Source/Rows/SliderRow.swift; sourceTree = "<group>"; };
+		AF0419E93C8A84848E105B2A8FA3874B /* Pods-ProfileModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ProfileModule-dummy.m"; sourceTree = "<group>"; };
+		AFDE01B38B6BDACCE8178BCC53C09364 /* ChangePasswordModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChangePasswordModule-prefix.pch"; sourceTree = "<group>"; };
+		B4AD894FA8BE6FDD4D062DB2EDEC10DC /* TextAreaRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextAreaRow.swift; path = Source/Rows/TextAreaRow.swift; sourceTree = "<group>"; };
+		B5220537A7F0E00F4F232CDDC4BC3567 /* Pods-EurekaFormExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EurekaFormExample-dummy.m"; sourceTree = "<group>"; };
+		B557AFCA262147AF1A0E3773170678D0 /* StepperRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StepperRow.swift; path = Source/Rows/StepperRow.swift; sourceTree = "<group>"; };
+		B75E7FF701F14C25319D4D1728893B3D /* DoublePickerInputRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DoublePickerInputRow.swift; path = Source/Rows/DoublePickerInputRow.swift; sourceTree = "<group>"; };
+		B81421E004E133AC0EB729F6CE703762 /* ChangePasswordModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ChangePasswordModule.xcconfig; sourceTree = "<group>"; };
+		B8E2AF0766CC049768DD8153A84A54C0 /* Pods-EurekaFormExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EurekaFormExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		BA129217981D7360D810AC7BD8E82641 /* PickerInputRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PickerInputRow.swift; path = Source/Rows/PickerInputRow.swift; sourceTree = "<group>"; };
+		BAC696113CC4AD8F58BD0276F58E2089 /* Eureka-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Eureka-prefix.pch"; sourceTree = "<group>"; };
+		BB7DDC08FE19C62FBDD01F8182821001 /* ChangePassword.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = ChangePassword.storyboard; path = ChangePasswordModule/Assets/ChangePassword.storyboard; sourceTree = "<group>"; };
+		BE75BEC9410F2E842CECEE08ADD6B537 /* CellType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CellType.swift; path = Source/Core/CellType.swift; sourceTree = "<group>"; };
+		C00F3368AA89EE80894A09AE2DAE7A56 /* ChangePasswordModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ChangePasswordModule.framework; path = ChangePasswordModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1A78D560339A521F0B790C7C9662F5B /* ChangeEmailModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ChangeEmailModule.xcconfig; sourceTree = "<group>"; };
+		C2832478875B67A751A80BFC6F4E801A /* BaseRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseRow.swift; path = Source/Core/BaseRow.swift; sourceTree = "<group>"; };
+		C516ED3EBD7C8E598E47DF50C1C4A86C /* Pods-ChangePasswordModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ChangePasswordModule.modulemap"; sourceTree = "<group>"; };
+		C84E563622D06C9864D67891DDCF9A3B /* Pods-ChangeEmailModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ChangeEmailModule-umbrella.h"; sourceTree = "<group>"; };
+		CDED29EC017F69F8DDC668A924127C69 /* ChangePasswordModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ChangePasswordModule.modulemap; sourceTree = "<group>"; };
+		CE2BA65279F1D7389F8D942E2BA8E959 /* ChangeEmailModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ChangeEmailModule-dummy.m"; sourceTree = "<group>"; };
+		D7512A5E74BA822B61905CA60B782C1E /* DatePickerRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatePickerRow.swift; path = Source/Rows/DatePickerRow.swift; sourceTree = "<group>"; };
+		D9064B35EBF6A924BC774ED3D764BF62 /* GenericMultipleSelectorRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GenericMultipleSelectorRow.swift; path = Source/Rows/Common/GenericMultipleSelectorRow.swift; sourceTree = "<group>"; };
+		D9BAD79A2524557FA8CF7012C67D374C /* Row.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Row.swift; path = Source/Core/Row.swift; sourceTree = "<group>"; };
+		DB21E328B9F96E7417E9DB9BFDFDB17B /* ButtonRowWithPresent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonRowWithPresent.swift; path = Source/Rows/ButtonRowWithPresent.swift; sourceTree = "<group>"; };
+		DBD49A43DA512CA7673DE739D436F22F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		DD4D8E9BA3883798CA1D110E79594D09 /* ProfileModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ProfileModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DDC79518940346E9BE0AD4CA8491A012 /* HeaderFooterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeaderFooterView.swift; path = Source/Core/HeaderFooterView.swift; sourceTree = "<group>"; };
+		E11FEBDC1ED2B0B352037DA6E5DDD884 /* SelectableRowType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectableRowType.swift; path = Source/Core/SelectableRowType.swift; sourceTree = "<group>"; };
+		E143E0BBCF647B03636687215F726D7C /* Pods-EurekaFormExample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EurekaFormExample-Info.plist"; sourceTree = "<group>"; };
+		E1B2DF1F539AB1BA926F2F0EAFE8AA2C /* MultipleSelectorRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipleSelectorRow.swift; path = Source/Rows/MultipleSelectorRow.swift; sourceTree = "<group>"; };
+		E400F50197A15FC464D3AA613D7362ED /* Pods-ProfileModule-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ProfileModule-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E462140D5B0BCAC6C5191EBCBE0DA3A2 /* FieldsRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FieldsRow.swift; path = Source/Rows/FieldsRow.swift; sourceTree = "<group>"; };
+		E83AAC6E3C9F9536EF8452993CCF8518 /* Pods-ChangePasswordModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChangePasswordModule-dummy.m"; sourceTree = "<group>"; };
+		EF073F536AD2055ED582AB57C5B40586 /* AlertOptionsRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlertOptionsRow.swift; path = Source/Rows/Common/AlertOptionsRow.swift; sourceTree = "<group>"; };
+		F04F720CD06B2FE220AEEE425B56F44B /* SelectorAlertController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectorAlertController.swift; path = Source/Rows/Controllers/SelectorAlertController.swift; sourceTree = "<group>"; };
+		F2800AC72EE42581BCB5EE25B703F315 /* SwipeActions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeActions.swift; path = Source/Core/SwipeActions.swift; sourceTree = "<group>"; };
+		F3C77594B8225EACB53F0318F251E410 /* ChangePasswordModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ChangePasswordModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F4FBC40FB8B90E1D5983B221BF07853F /* RuleRequired.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleRequired.swift; path = Source/Validations/RuleRequired.swift; sourceTree = "<group>"; };
+		F603E2A706C0507F469FDACB6199193D /* Cell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cell.swift; path = Source/Core/Cell.swift; sourceTree = "<group>"; };
+		FBA154C28A898081F15331ACA5476419 /* ChangeEmailModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ChangeEmailModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FEDCAC44058E24BEEA92CFAAD072BCAF /* ActionSheetRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetRow.swift; path = Source/Rows/ActionSheetRow.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		271FC3E3B1A1D98FE49313813B3533D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				088BCDCF766CC71D1345DD1BD6CEFB32 /* Eureka.framework in Frameworks */,
+				727DD6150CDB03E402F2A9CFAE8AC7EE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A1CB8BFF99FEA6FBBCEC74D61F37DA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0BD60B0F445BDE5C391C8A23F523E8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F3CE5FCA0906D57B2203FD2F1FF155C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61E1394EA7E44296BB296A5E92F3D6C8 /* Eureka.framework in Frameworks */,
+				027BE1A3D6D199807747737515F33E6E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0080F3F9AA1C3E9472FAB63A468C7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				803A87E8D08EC74692D001EF5BB47BDB /* Foundation.framework in Frameworks */,
+				B7E4BCD67F6F2B85121060850279D93B /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AF6458C4CB5B2A9B3DBC4A59586EBFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05759C3BE7B3F6F4EC1174985B2A1B5F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98C37F3698D97F45DBA19BCA97D2CB90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5BA8AB7ED71115A392E008B972C0177 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC5EFC9B3B3774A8ADCCA36034D160C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				616F3475011946C6B056D7E8434EA50F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECCBABD53B78FAAAD168DF7090CD9E01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4066D31243FF421ECD24DCDD63F1F401 /* ChangeEmailModule.framework in Frameworks */,
+				8220CD8814C8382623D5184A9FB567AA /* ChangePasswordModule.framework in Frameworks */,
+				5F0A266DDEE31F3C7A8A6CA80869E8A0 /* Eureka.framework in Frameworks */,
+				94785395A1AFBE0515FA449026375C14 /* Foundation.framework in Frameworks */,
+				0BBECF100E45E15C520E337CFE6F2DEB /* ImageRow.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F48E9886E3E4725161C83759083B5F40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA5752BE8C342F2F8AA77244820B8EE /* Eureka.framework in Frameworks */,
+				9559D6F6515057C76774017D6CC1F453 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0186BD1DF54AB47F656F491E8E3258F6 /* Pods-ChangePasswordModule */ = {
+			isa = PBXGroup;
+			children = (
+				C516ED3EBD7C8E598E47DF50C1C4A86C /* Pods-ChangePasswordModule.modulemap */,
+				5DD97FEE0050C4AFF0BC0B4ECE5A3467 /* Pods-ChangePasswordModule-acknowledgements.markdown */,
+				3C1AABEF451E1D5ECE17F900DD945FF1 /* Pods-ChangePasswordModule-acknowledgements.plist */,
+				E83AAC6E3C9F9536EF8452993CCF8518 /* Pods-ChangePasswordModule-dummy.m */,
+				7B2E1E4127EBB1C47A495E0842E749F6 /* Pods-ChangePasswordModule-Info.plist */,
+				9190F5E8DB849C75F7D713A503C4FBA1 /* Pods-ChangePasswordModule-umbrella.h */,
+				0CF69246DACE2FDFB5A06B6E2A2059FB /* Pods-ChangePasswordModule.debug.xcconfig */,
+				6D34739DAF2C3D99D1C8EDF23DE52866 /* Pods-ChangePasswordModule.release.xcconfig */,
+			);
+			name = "Pods-ChangePasswordModule";
+			path = "Target Support Files/Pods-ChangePasswordModule";
+			sourceTree = "<group>";
+		};
+		0485C6B698E8D427B1AE0151641FB8CD /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3BB1484A863E4462B40CB081D18285B5 /* Foundation.framework */,
+				DBD49A43DA512CA7673DE739D436F22F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		0CEACEAF106EB229A4EFFE0283C137BB /* ImageRow */ = {
+			isa = PBXGroup;
+			children = (
+				9BBB7316BB8EBD149E56B812E54EC15A /* ImageCell.swift */,
+				592126E12F5DC21DD3E22DED4FC11FA2 /* ImagePickerController.swift */,
+				A1C300DF0D056352D7F65D90B6FA7954 /* ImageRow.swift */,
+				8A6E9112B8DF069A35068B22A16F9F25 /* Support Files */,
+			);
+			name = ImageRow;
+			path = ImageRow;
+			sourceTree = "<group>";
+		};
+		0DAEDB716B2D1329BF6A7A1EEB1E6F4B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A4DA2033BC817111779371DFE17EF4AF /* Profile.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		262AB71E4C89BBBBF8B8338EE12E3C88 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D5B8D2DFA7335C7C01132AB61415570 /* ChangeEmailModule */,
+				8513A7B140357774C234FF880A178362 /* ChangePasswordModule */,
+				928499C8C0089CDF2C43870167E81710 /* ProfileModule */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		2E97F2E5F77382633B9FDE86A6FA3EE7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F39B9E171025C02D723C164ADD46EC6 /* Eureka.modulemap */,
+				A8CD30FF6DD996662D6C8A334BEF8650 /* Eureka.xcconfig */,
+				4B787B9737B6BE196A3DF7FCFB0B7D7A /* Eureka-dummy.m */,
+				6128750C520E079D1E87086EF1A6A824 /* Eureka-Info.plist */,
+				BAC696113CC4AD8F58BD0276F58E2089 /* Eureka-prefix.pch */,
+				6A3DFD1AF09C089F2A5845DE7F8073D6 /* Eureka-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Eureka";
+			sourceTree = "<group>";
+		};
+		49CADD5F67CC95FE454AF9AAEC2A8F8C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				16C1D5B525D2FD72CDA73128CA3A40CA /* ProfileModule.modulemap */,
+				8846DE6EA32C4AD8BE1D36720E6807D6 /* ProfileModule.xcconfig */,
+				8B70787571793730F666C2BEAF5C9F08 /* ProfileModule-dummy.m */,
+				6D14F883D2CE5EF78C4125CF83D4A646 /* ProfileModule-Info.plist */,
+				57D46579BA790E27360EBADE5911C0C9 /* ProfileModule-prefix.pch */,
+				522C20A6772ABD266365310050129729 /* ProfileModule-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/ProfileModule";
+			sourceTree = "<group>";
+		};
+		4B10F32FBC3D627D800A17E2F2BDDDB3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDED29EC017F69F8DDC668A924127C69 /* ChangePasswordModule.modulemap */,
+				B81421E004E133AC0EB729F6CE703762 /* ChangePasswordModule.xcconfig */,
+				01E3F0494AEF680F72D0CCCD74E40A6E /* ChangePasswordModule-dummy.m */,
+				AAEBF51D948AF688895346B63FD5F7C6 /* ChangePasswordModule-Info.plist */,
+				AFDE01B38B6BDACCE8178BCC53C09364 /* ChangePasswordModule-prefix.pch */,
+				1A81C511B6ECEDB3E0A9E6F37B83C44F /* ChangePasswordModule-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/ChangePasswordModule";
+			sourceTree = "<group>";
+		};
+		4B696F407DAFD2A211AC4B878D025A1B /* Pods-ChangeEmailModule */ = {
+			isa = PBXGroup;
+			children = (
+				A881B73803235471B6B769FCDB27F167 /* Pods-ChangeEmailModule.modulemap */,
+				9B871FA471DD65E611D342AE061F66CC /* Pods-ChangeEmailModule-acknowledgements.markdown */,
+				805CC912D6BBF42A426207F0540C8622 /* Pods-ChangeEmailModule-acknowledgements.plist */,
+				472D0C3ABD64D05B6C16FE98C1B9560B /* Pods-ChangeEmailModule-dummy.m */,
+				419A1AA488C23219FEA9B40FE93F17A9 /* Pods-ChangeEmailModule-Info.plist */,
+				C84E563622D06C9864D67891DDCF9A3B /* Pods-ChangeEmailModule-umbrella.h */,
+				5F3AF131C0FC8E4D4CB020EFFC130E92 /* Pods-ChangeEmailModule.debug.xcconfig */,
+				1814C3CEEE4BCCEBF49ED5D8D0C236D5 /* Pods-ChangeEmailModule.release.xcconfig */,
+			);
+			name = "Pods-ChangeEmailModule";
+			path = "Target Support Files/Pods-ChangeEmailModule";
+			sourceTree = "<group>";
+		};
+		4B8CDD1AD1C7DBD463A7524AF827EA72 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				58317344589F44E3C7B935C37C991818 /* ChangeEmail.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		54EEBC8AFB8548ED2513D332D039A6BB /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DD4D8E9BA3883798CA1D110E79594D09 /* ProfileModule.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		5D5B8D2DFA7335C7C01132AB61415570 /* ChangeEmailModule */ = {
+			isa = PBXGroup;
+			children = (
+				3B026242803CD6593832F60FC1D83805 /* ChangeEmailViewController.swift */,
+				E82CB4A9BBE036AA2EEDC096E1AA5084 /* Pod */,
+				4B8CDD1AD1C7DBD463A7524AF827EA72 /* Resources */,
+				9AD971B6E2ED9D9597E58108372DB7C6 /* Support Files */,
+			);
+			name = ChangeEmailModule;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		6005D34D9475B695FF3526AB33B0D3EA /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F3C77594B8225EACB53F0318F251E410 /* ChangePasswordModule.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		64703520D140225D73AC6EB0970C6022 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BB7DDC08FE19C62FBDD01F8182821001 /* ChangePassword.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6FDF1B3DE0106EF6C5A167D13D8B5249 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B696F407DAFD2A211AC4B878D025A1B /* Pods-ChangeEmailModule */,
+				0186BD1DF54AB47F656F491E8E3258F6 /* Pods-ChangePasswordModule */,
+				E44B45D665ABE52CF1E70C86E88992A0 /* Pods-EurekaFormExample */,
+				83E1ABC6BF1CC2F161016F6ADA4C672E /* Pods-ProfileModule */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		83E1ABC6BF1CC2F161016F6ADA4C672E /* Pods-ProfileModule */ = {
+			isa = PBXGroup;
+			children = (
+				14814D8E8C2ED139C35E3B9B8AA47F50 /* Pods-ProfileModule.modulemap */,
+				E400F50197A15FC464D3AA613D7362ED /* Pods-ProfileModule-acknowledgements.markdown */,
+				272133117E0E5FA1E94905F8899229E0 /* Pods-ProfileModule-acknowledgements.plist */,
+				AF0419E93C8A84848E105B2A8FA3874B /* Pods-ProfileModule-dummy.m */,
+				3D07EAC5B8DA819A2E0F9CF97DC3039E /* Pods-ProfileModule-Info.plist */,
+				63EE9A482826855AAE30F7E028790B70 /* Pods-ProfileModule-umbrella.h */,
+				16A640880758B3EF2972C77BBB79C427 /* Pods-ProfileModule.debug.xcconfig */,
+				19B6B1E3DE1553BE3E4F28C88F9094CD /* Pods-ProfileModule.release.xcconfig */,
+			);
+			name = "Pods-ProfileModule";
+			path = "Target Support Files/Pods-ProfileModule";
+			sourceTree = "<group>";
+		};
+		8513A7B140357774C234FF880A178362 /* ChangePasswordModule */ = {
+			isa = PBXGroup;
+			children = (
+				145D16EB90E13B62ACA8BD93DF1EDCEF /* ChangePasswordViewController.swift */,
+				6005D34D9475B695FF3526AB33B0D3EA /* Pod */,
+				64703520D140225D73AC6EB0970C6022 /* Resources */,
+				4B10F32FBC3D627D800A17E2F2BDDDB3 /* Support Files */,
+			);
+			name = ChangePasswordModule;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		8A6E9112B8DF069A35068B22A16F9F25 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2006C6BBB43EE9BDF961F523544BC28E /* ImageRow.modulemap */,
+				1DB4F48B5D0099A790F5107B191055DB /* ImageRow.xcconfig */,
+				A30EE0D154E79E223694355DA3DF4776 /* ImageRow-dummy.m */,
+				8D0E2E5FB40E025BEBD2C1F21FF84103 /* ImageRow-Info.plist */,
+				090B1907B9375C9B525796CF490DB9DE /* ImageRow-prefix.pch */,
+				4287559D6B748B724F552F573A235645 /* ImageRow-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ImageRow";
+			sourceTree = "<group>";
+		};
+		91C1322978BD1F54588FDE924EBC8050 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A407BDD544020CA328C71B58D22E705A /* Eureka */,
+				0CEACEAF106EB229A4EFFE0283C137BB /* ImageRow */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		928499C8C0089CDF2C43870167E81710 /* ProfileModule */ = {
+			isa = PBXGroup;
+			children = (
+				0AA6718E1B126F242640E8624C7970FB /* ProfileViewController.swift */,
+				54EEBC8AFB8548ED2513D332D039A6BB /* Pod */,
+				0DAEDB716B2D1329BF6A7A1EEB1E6F4B /* Resources */,
+				49CADD5F67CC95FE454AF9AAEC2A8F8C /* Support Files */,
+			);
+			name = ProfileModule;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		9AD971B6E2ED9D9597E58108372DB7C6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				110CD60A2E12D606EC4A40497F0AFADB /* ChangeEmailModule.modulemap */,
+				C1A78D560339A521F0B790C7C9662F5B /* ChangeEmailModule.xcconfig */,
+				CE2BA65279F1D7389F8D942E2BA8E959 /* ChangeEmailModule-dummy.m */,
+				361F6F2DEFEB052FF4C5AB6A68EF70DE /* ChangeEmailModule-Info.plist */,
+				7E015204703B1D5427A6C2277D10C630 /* ChangeEmailModule-prefix.pch */,
+				67B40B32F04994CBCB9513AB03B7E13A /* ChangeEmailModule-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/ChangeEmailModule";
+			sourceTree = "<group>";
+		};
+		A407BDD544020CA328C71B58D22E705A /* Eureka */ = {
+			isa = PBXGroup;
+			children = (
+				FEDCAC44058E24BEEA92CFAAD072BCAF /* ActionSheetRow.swift */,
+				EF073F536AD2055ED582AB57C5B40586 /* AlertOptionsRow.swift */,
+				A18459DC491C983DFD513A755E7FF2DD /* AlertRow.swift */,
+				C2832478875B67A751A80BFC6F4E801A /* BaseRow.swift */,
+				83B75A0CBECCD2C625AC66254794CCD6 /* ButtonRow.swift */,
+				DB21E328B9F96E7417E9DB9BFDFDB17B /* ButtonRowWithPresent.swift */,
+				F603E2A706C0507F469FDACB6199193D /* Cell.swift */,
+				BE75BEC9410F2E842CECEE08ADD6B537 /* CellType.swift */,
+				798895980409692A62E3947806C29906 /* CheckRow.swift */,
+				97D56199836F038523B58F7BE78C4066 /* Core.swift */,
+				65DEC4FFC95DAAAF8294F6187B6AE2A0 /* DateFieldRow.swift */,
+				714A37399199DDA509185D892EA3A1DF /* DateInlineFieldRow.swift */,
+				6B9248276BBD7582C715CB50E9A009BF /* DateInlineRow.swift */,
+				D7512A5E74BA822B61905CA60B782C1E /* DatePickerRow.swift */,
+				70B0C3E86C28A8052B91144FCD03F0BB /* DateRow.swift */,
+				21841E1F685C8FFC189B591972422BBA /* DecimalFormatter.swift */,
+				B75E7FF701F14C25319D4D1728893B3D /* DoublePickerInputRow.swift */,
+				407D5C5A06ACB2EE9947B2F33BCC15FF /* DoublePickerRow.swift */,
+				2FC547FEFDB19776CBAB9FEC0A2CFDD5 /* FieldRow.swift */,
+				E462140D5B0BCAC6C5191EBCBE0DA3A2 /* FieldsRow.swift */,
+				20872CF5E80BBEC9DE00D373058B73D0 /* Form.swift */,
+				D9064B35EBF6A924BC774ED3D764BF62 /* GenericMultipleSelectorRow.swift */,
+				DDC79518940346E9BE0AD4CA8491A012 /* HeaderFooterView.swift */,
+				2218D0865DD57DBE754556BE7CAD8976 /* Helpers.swift */,
+				2A41CB2847026F25E3696FE5C5307059 /* InlineRowType.swift */,
+				472751B3CB084DAF294EC6A921FC28DC /* LabelRow.swift */,
+				7879290F2217DDFDFC9FCE05B269499A /* ListCheckRow.swift */,
+				E1B2DF1F539AB1BA926F2F0EAFE8AA2C /* MultipleSelectorRow.swift */,
+				9E6212093D024341316E2043AB310046 /* MultipleSelectorViewController.swift */,
+				3D550884AD73FAC1F19E025B9F5C661F /* NavigationAccessoryView.swift */,
+				6A61AB14327736F8BCACCB58AB3009EE /* Operators.swift */,
+				95A1AD7CC1869D42F2A41E8945E5B010 /* OptionsRow.swift */,
+				A31D2C4C51B5D80F8F1F678A93DFB304 /* PickerInlineRow.swift */,
+				BA129217981D7360D810AC7BD8E82641 /* PickerInputRow.swift */,
+				A72C690CA3D4DD23B854128163965B36 /* PickerRow.swift */,
+				75F2C9B5C18A0BA4CCF37BA53DD0B730 /* PopoverSelectorRow.swift */,
+				2B38B757278ED3CD8E17DFFA9D7578FC /* PresenterRowType.swift */,
+				3141C1752042D0B55B6F566C579A5407 /* Protocols.swift */,
+				488F4BEC3103A4173AF11707D2288DFC /* PushRow.swift */,
+				D9BAD79A2524557FA8CF7012C67D374C /* Row.swift */,
+				1324E6CD39ED5822E16292832502930F /* RowControllerType.swift */,
+				22ADA475EBAC72185FF66C9E7B7A60AD /* RowProtocols.swift */,
+				39ECDDBB44E0A7ECD17EAA7C49021A28 /* RowType.swift */,
+				74831519C1F70DC0511F63162A426B34 /* RuleClosure.swift */,
+				4CFC4DF9C7237AA0DD8EE8B501EDDB67 /* RuleEmail.swift */,
+				2AC4EFBA023F0B9B03E8829BDDF58AD5 /* RuleEqualsToRow.swift */,
+				6ED65D64C93AF498ADC5756B4B1A22DB /* RuleLength.swift */,
+				1CD45CEFAB600EE48528C8BA9B80BF0A /* RuleRange.swift */,
+				5F453896CBDEC3606EFB74D4772E57EA /* RuleRegExp.swift */,
+				F4FBC40FB8B90E1D5983B221BF07853F /* RuleRequired.swift */,
+				4137B545256EDA8C3DE17211C1F95ED4 /* RuleURL.swift */,
+				401CE6245E66548CD284B420A13B661E /* Section.swift */,
+				111F1A699ECE86A9B42C764E4D5B2E9A /* SegmentedRow.swift */,
+				E11FEBDC1ED2B0B352037DA6E5DDD884 /* SelectableRowType.swift */,
+				236D924FB7779991951804976A9000F4 /* SelectableSection.swift */,
+				F04F720CD06B2FE220AEEE425B56F44B /* SelectorAlertController.swift */,
+				50209A956FBB7455746EC7C39AE99E27 /* SelectorRow.swift */,
+				A362DE59890A7A698055B176EE77D0FC /* SelectorViewController.swift */,
+				AB4AA9EB2A0E5C344C17F20C2B386371 /* SliderRow.swift */,
+				B557AFCA262147AF1A0E3773170678D0 /* StepperRow.swift */,
+				F2800AC72EE42581BCB5EE25B703F315 /* SwipeActions.swift */,
+				56990B6E6EF66234A0F888E667105A84 /* SwitchRow.swift */,
+				B4AD894FA8BE6FDD4D062DB2EDEC10DC /* TextAreaRow.swift */,
+				625F2B954E210FA48E49D7EFB1EF64A1 /* TriplePickerInputRow.swift */,
+				4B6DF90CC762BECFEC0D445D73AF8BBE /* TriplePickerRow.swift */,
+				7482EDA3D43FB359787638C91A44521E /* Validation.swift */,
+				E54BD1CBE9F9D7C630F12EDA5A05AF32 /* Resources */,
+				2E97F2E5F77382633B9FDE86A6FA3EE7 /* Support Files */,
+			);
+			name = Eureka;
+			path = Eureka;
+			sourceTree = "<group>";
+		};
+		BAA941ABCAB06D493AC5B415FA25F937 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				602C13D4F78DED3F32D70215F94F0281 /* ChangeEmailModule.framework */,
+				C00F3368AA89EE80894A09AE2DAE7A56 /* ChangePasswordModule.framework */,
+				082977F3777A7D434AB35C357B487F83 /* Eureka.framework */,
+				85A9C62BA4877340BA0A0E41709E190B /* ImageRow.framework */,
+				6E27F748E65EA9DD03278F6914A4455D /* Pods_ChangeEmailModule.framework */,
+				6407D5EAE688B53FC2B56C0A39E569E5 /* Pods_ChangePasswordModule.framework */,
+				7A903C93AC10383133C140AC9CA4F23C /* Pods_EurekaFormExample.framework */,
+				3C17594A0408F1ABF3E63CDB07BD5B2F /* Pods_ProfileModule.framework */,
+				160674E5D5FA5AB966458FBE939DCF37 /* ProfileModule.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8093B73CAF2166866836021F576F29E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47701597379D9CB02E2D88303A1D6EED /* ChangeEmailModule.framework */,
+				9E269D0C9A8A95451057D0931F68F545 /* ChangePasswordModule.framework */,
+				7BEFB4785D575639CB4DA13773B42314 /* Eureka.framework */,
+				A13BEDB3841B5DCF32D4E479A793584F /* ImageRow.framework */,
+				0485C6B698E8D427B1AE0151641FB8CD /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				262AB71E4C89BBBBF8B8338EE12E3C88 /* Development Pods */,
+				C8093B73CAF2166866836021F576F29E /* Frameworks */,
+				91C1322978BD1F54588FDE924EBC8050 /* Pods */,
+				BAA941ABCAB06D493AC5B415FA25F937 /* Products */,
+				6FDF1B3DE0106EF6C5A167D13D8B5249 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E44B45D665ABE52CF1E70C86E88992A0 /* Pods-EurekaFormExample */ = {
+			isa = PBXGroup;
+			children = (
+				83C52671A3BC65DF4A1F3CBF719F12BC /* Pods-EurekaFormExample.modulemap */,
+				158248282981B6BD14E4A6C24D336A16 /* Pods-EurekaFormExample-acknowledgements.markdown */,
+				B8E2AF0766CC049768DD8153A84A54C0 /* Pods-EurekaFormExample-acknowledgements.plist */,
+				B5220537A7F0E00F4F232CDDC4BC3567 /* Pods-EurekaFormExample-dummy.m */,
+				2655C5DAD9AB23DF5DC55CD152326D6F /* Pods-EurekaFormExample-frameworks.sh */,
+				E143E0BBCF647B03636687215F726D7C /* Pods-EurekaFormExample-Info.plist */,
+				9DF0CE9C0C18CBFCF962DA25110DDDB6 /* Pods-EurekaFormExample-umbrella.h */,
+				659178257C25B626D56BC0E867FA77ED /* Pods-EurekaFormExample.debug.xcconfig */,
+				906A0638A3C9FBF355AD0DB7DEFCD416 /* Pods-EurekaFormExample.release.xcconfig */,
+			);
+			name = "Pods-EurekaFormExample";
+			path = "Target Support Files/Pods-EurekaFormExample";
+			sourceTree = "<group>";
+		};
+		E54BD1CBE9F9D7C630F12EDA5A05AF32 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				16152BAEFFD0E2D44D332950C000F553 /* Eureka.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E82CB4A9BBE036AA2EEDC096E1AA5084 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FBA154C28A898081F15331ACA5476419 /* ChangeEmailModule.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		08505E3E9E672ACE64B6E0551FAB4FC0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				867EE8DAF5909757AB925702ECFBAEA5 /* ProfileModule-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1632F974A2812A557A7E27FFB0C8E8E7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				121CA0DC2B9B068C002852D92BF788EE /* Pods-ProfileModule-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A2EBF348B4D413AFB799E5C7C3C7D7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5CFAD5B0ABEDD9503311173ADBE02DE /* ChangeEmailModule-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B122EDF6D8B7EB4CF8ABF91DB3BFDB7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D52E8848A6909B3C5CA388DB227AA6EC /* ImageRow-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F26C8258A590E625FD3A09C5B2F5354 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F6396319FC644FB8C967AC57319B986 /* ChangePasswordModule-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7BBCD924AD0BAF7C67EB47963D1F40A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1276FC9F34978191AAE789671A78E69A /* Pods-ChangeEmailModule-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC7C29E487375CFDAD7C2099495E7ED2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C297B2B7A6B37C397D324A51F1D0D0C /* Pods-ChangePasswordModule-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C629F6BC360FADF3A8BADB8F9CA3E256 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF2F534202DEF83C02D1D4730BD96551 /* Eureka-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6C8FAE242B77E79D9CC882E48E6AEC7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCEBE598AEBCD79170E8D4BB61693641 /* Pods-EurekaFormExample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0B3CEDB7387CA627A28116333CE3E933 /* Pods-EurekaFormExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40B9339C759C8AF56F6572E22E0D20FA /* Build configuration list for PBXNativeTarget "Pods-EurekaFormExample" */;
+			buildPhases = (
+				D6C8FAE242B77E79D9CC882E48E6AEC7 /* Headers */,
+				EE7A032EC98B92D05B65614AA240C437 /* Sources */,
+				2A1CB8BFF99FEA6FBBCEC74D61F37DA5 /* Frameworks */,
+				4B02CEBA28296EB1C370F0918FECC35B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19C178B0C1C275423AF2225A14D47F6C /* PBXTargetDependency */,
+				D41E0B2B453B9445E429117DCC9154CF /* PBXTargetDependency */,
+				D44B98C53EC8040CFDF4103AF2AD018C /* PBXTargetDependency */,
+				3FA23EB1A31928F6DCC96AEDBF10E741 /* PBXTargetDependency */,
+				6931AE6DAD3111F076E6515EC1F7E63F /* PBXTargetDependency */,
+			);
+			name = "Pods-EurekaFormExample";
+			productName = "Pods-EurekaFormExample";
+			productReference = 7A903C93AC10383133C140AC9CA4F23C /* Pods_EurekaFormExample.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1F2E36C7E6539B505642680394F3D878 /* Pods-ProfileModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34F7ABF48BE49A09BBA7FE955DAEF0BB /* Build configuration list for PBXNativeTarget "Pods-ProfileModule" */;
+			buildPhases = (
+				1632F974A2812A557A7E27FFB0C8E8E7 /* Headers */,
+				AF7DFB10D41F8F2AD54DFA6F2D0C102A /* Sources */,
+				BC5EFC9B3B3774A8ADCCA36034D160C2 /* Frameworks */,
+				BACBB183A241085D0CC27B800C5FC644 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CCBECE2B4DA8849024B7ADDE49DAFF6 /* PBXTargetDependency */,
+				1DF9B0A311819DC91EA34937CEC5F5A3 /* PBXTargetDependency */,
+				B48779DB362D1C9646FFAFAA36CB5834 /* PBXTargetDependency */,
+				D916298A4A13A5499F4116B85C6BC7C7 /* PBXTargetDependency */,
+			);
+			name = "Pods-ProfileModule";
+			productName = "Pods-ProfileModule";
+			productReference = 3C17594A0408F1ABF3E63CDB07BD5B2F /* Pods_ProfileModule.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5A4C23B5D1E626D77EF3C7E17101F1BC /* ProfileModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A612FA71B5A9ED9D2E43DCC871BA23A /* Build configuration list for PBXNativeTarget "ProfileModule" */;
+			buildPhases = (
+				08505E3E9E672ACE64B6E0551FAB4FC0 /* Headers */,
+				A89E367A7D2579097D232FE3A411FA8F /* Sources */,
+				ECCBABD53B78FAAAD168DF7090CD9E01 /* Frameworks */,
+				F57CDE51D78D16FB47009F2F8B22ACB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				969322B580E0E88FB2C71E38E4343DDA /* PBXTargetDependency */,
+				45FA8EF0012B1FF821B20244B3D81FD8 /* PBXTargetDependency */,
+				93DC420187A51C81F796BA13499448B0 /* PBXTargetDependency */,
+				51F3FBA16EB5DF242A9FC4BF76DE93A4 /* PBXTargetDependency */,
+			);
+			name = ProfileModule;
+			productName = ProfileModule;
+			productReference = 160674E5D5FA5AB966458FBE939DCF37 /* ProfileModule.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		88BE8BE7A2FE6CED4193CCD8FF3CBEF7 /* Eureka */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28A84C49CF67320E8518D0A6C8FB4FEC /* Build configuration list for PBXNativeTarget "Eureka" */;
+			buildPhases = (
+				C629F6BC360FADF3A8BADB8F9CA3E256 /* Headers */,
+				E8AC40AF51BB1E58DCED34215353533C /* Sources */,
+				4A0080F3F9AA1C3E9472FAB63A468C7F /* Frameworks */,
+				C21BC4EF46E2C96E26A4304CF5508DBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Eureka;
+			productName = Eureka;
+			productReference = 082977F3777A7D434AB35C357B487F83 /* Eureka.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B5D6F1F01CE7EC3A41FD17FCC7F186E6 /* Pods-ChangeEmailModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A759D42A58B8421222753AC524761A80 /* Build configuration list for PBXNativeTarget "Pods-ChangeEmailModule" */;
+			buildPhases = (
+				A7BBCD924AD0BAF7C67EB47963D1F40A /* Headers */,
+				6F863BF80884D32F57F763ADBE12E24D /* Sources */,
+				98C37F3698D97F45DBA19BCA97D2CB90 /* Frameworks */,
+				FB55E9C247ED3C15950FCDEE40E77196 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				674F8079BDB40D1D0FBD63978B3642D5 /* PBXTargetDependency */,
+			);
+			name = "Pods-ChangeEmailModule";
+			productName = "Pods-ChangeEmailModule";
+			productReference = 6E27F748E65EA9DD03278F6914A4455D /* Pods_ChangeEmailModule.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B73EBD6544CF7745DF5F90ADC4E5B685 /* ChangePasswordModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C200BBB193986F37B5BD1FE14B5D3029 /* Build configuration list for PBXNativeTarget "ChangePasswordModule" */;
+			buildPhases = (
+				5F26C8258A590E625FD3A09C5B2F5354 /* Headers */,
+				511892842E490E67B3F3E9BF5BDD7D69 /* Sources */,
+				271FC3E3B1A1D98FE49313813B3533D8 /* Frameworks */,
+				4967E44EEE454EDCB6BCCB9D18E90DA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82FF73A0C637E64407BDAEA8128066F7 /* PBXTargetDependency */,
+			);
+			name = ChangePasswordModule;
+			productName = ChangePasswordModule;
+			productReference = C00F3368AA89EE80894A09AE2DAE7A56 /* ChangePasswordModule.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C1A1CA827D4678039BF74103FC983833 /* ChangeEmailModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C776F85BD8787FDA8033C96EAA5B4B71 /* Build configuration list for PBXNativeTarget "ChangeEmailModule" */;
+			buildPhases = (
+				18A2EBF348B4D413AFB799E5C7C3C7D7 /* Headers */,
+				3CCE2621EAE6EE02F428AB714E8943E8 /* Sources */,
+				3F3CE5FCA0906D57B2203FD2F1FF155C /* Frameworks */,
+				E9C06E926F82A148851D608F59C9BAD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8041FFAABD6C13959E49E0DAB0979086 /* PBXTargetDependency */,
+			);
+			name = ChangeEmailModule;
+			productName = ChangeEmailModule;
+			productReference = 602C13D4F78DED3F32D70215F94F0281 /* ChangeEmailModule.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F7A183DD2579B81050C29DD295F3B8B3 /* Pods-ChangePasswordModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54DB3961A143248D124584F75C88E1C7 /* Build configuration list for PBXNativeTarget "Pods-ChangePasswordModule" */;
+			buildPhases = (
+				BC7C29E487375CFDAD7C2099495E7ED2 /* Headers */,
+				6636FC8ACFA3235646AC5758EBE13789 /* Sources */,
+				4AF6458C4CB5B2A9B3DBC4A59586EBFD /* Frameworks */,
+				6ECC3ED930D4F22E4C5B5308B4168AEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCF5DB3905E82E36C7F5EEC42C94D56B /* PBXTargetDependency */,
+			);
+			name = "Pods-ChangePasswordModule";
+			productName = "Pods-ChangePasswordModule";
+			productReference = 6407D5EAE688B53FC2B56C0A39E569E5 /* Pods_ChangePasswordModule.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FDEED0C73551C2A79D389CF0E6A14650 /* ImageRow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18DA2529BD4BA752ABBCB2BADF3E7008 /* Build configuration list for PBXNativeTarget "ImageRow" */;
+			buildPhases = (
+				3B122EDF6D8B7EB4CF8ABF91DB3BFDB7 /* Headers */,
+				B274222632CFAD97CCC4240DDEFE7A9A /* Sources */,
+				F48E9886E3E4725161C83759083B5F40 /* Frameworks */,
+				F4649FD752C8B77242ACB0D408B903E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E16309D286583D58F1A65ED8A761BBFF /* PBXTargetDependency */,
+			);
+			name = ImageRow;
+			productName = ImageRow;
+			productReference = 85A9C62BA4877340BA0A0E41709E190B /* ImageRow.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = BAA941ABCAB06D493AC5B415FA25F937 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1A1CA827D4678039BF74103FC983833 /* ChangeEmailModule */,
+				B73EBD6544CF7745DF5F90ADC4E5B685 /* ChangePasswordModule */,
+				88BE8BE7A2FE6CED4193CCD8FF3CBEF7 /* Eureka */,
+				FDEED0C73551C2A79D389CF0E6A14650 /* ImageRow */,
+				B5D6F1F01CE7EC3A41FD17FCC7F186E6 /* Pods-ChangeEmailModule */,
+				F7A183DD2579B81050C29DD295F3B8B3 /* Pods-ChangePasswordModule */,
+				0B3CEDB7387CA627A28116333CE3E933 /* Pods-EurekaFormExample */,
+				1F2E36C7E6539B505642680394F3D878 /* Pods-ProfileModule */,
+				5A4C23B5D1E626D77EF3C7E17101F1BC /* ProfileModule */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4967E44EEE454EDCB6BCCB9D18E90DA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				723FE33C27B955054FBAC553221D9A4F /* ChangePassword.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B02CEBA28296EB1C370F0918FECC35B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ECC3ED930D4F22E4C5B5308B4168AEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BACBB183A241085D0CC27B800C5FC644 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C21BC4EF46E2C96E26A4304CF5508DBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D28A29A0A8A9ED6DEC0F7DB1CA589A18 /* Eureka.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9C06E926F82A148851D608F59C9BAD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255081A457995D132A82545C46F6AFE0 /* ChangeEmail.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4649FD752C8B77242ACB0D408B903E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F57CDE51D78D16FB47009F2F8B22ACB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFE0E77BC7CFC9E3AA4E6C24F9888CB0 /* Profile.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB55E9C247ED3C15950FCDEE40E77196 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CCE2621EAE6EE02F428AB714E8943E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				033662C775DC52BB58059FA98CA4CB81 /* ChangeEmailModule-dummy.m in Sources */,
+				6DBEA669915D4F326FED900BCCCF79FE /* ChangeEmailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		511892842E490E67B3F3E9BF5BDD7D69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B24EE5D6DA7DFEBB9610616C54506FB5 /* ChangePasswordModule-dummy.m in Sources */,
+				B6271DD5A21FE1854C12EF52A68156B5 /* ChangePasswordViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6636FC8ACFA3235646AC5758EBE13789 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50119635448522840577500794C00A39 /* Pods-ChangePasswordModule-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F863BF80884D32F57F763ADBE12E24D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B09B7BF0D0D910963D44AD225484656 /* Pods-ChangeEmailModule-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A89E367A7D2579097D232FE3A411FA8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90711EFC33F924F3DF90B11E2119D3EC /* ProfileModule-dummy.m in Sources */,
+				BFDC1A4DC29E3724E8ED6BA239BF501D /* ProfileViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF7DFB10D41F8F2AD54DFA6F2D0C102A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C5F2D6AB3C33EBB32A5FB34D84E3F98 /* Pods-ProfileModule-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B274222632CFAD97CCC4240DDEFE7A9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27ADB278CF30946D1387CCB42730D9C9 /* ImageCell.swift in Sources */,
+				C5D60ED952CEB87A664AD482EC5EC37D /* ImagePickerController.swift in Sources */,
+				5B7D4173C292EE51F6BA9466B8DA0AA5 /* ImageRow-dummy.m in Sources */,
+				61D0EC49DA1C2CF031467CD56A7D2B52 /* ImageRow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8AC40AF51BB1E58DCED34215353533C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51884F2F70363AF1C0AA2387C7C0FC2E /* ActionSheetRow.swift in Sources */,
+				A236C65402E67FBF6B8D5CA9087443EC /* AlertOptionsRow.swift in Sources */,
+				E52ADF43726EEDBA517F54FEEDC7FCD4 /* AlertRow.swift in Sources */,
+				E745E0EACF6B77ABE9FA0F92833CC0F5 /* BaseRow.swift in Sources */,
+				7CA2FDA047E519573F49F14778C95C40 /* ButtonRow.swift in Sources */,
+				DC02136E66E95724841FCF7FF7F69C09 /* ButtonRowWithPresent.swift in Sources */,
+				7F3D2E7AEB625DA56DC46E01D01EC5F8 /* Cell.swift in Sources */,
+				40940460BA910B7BD50C7E7947A6DEA4 /* CellType.swift in Sources */,
+				C8DDE12E47C32F28BCEB3440510EA873 /* CheckRow.swift in Sources */,
+				8738989A48495E7B6B6D2E4ACD25EDF6 /* Core.swift in Sources */,
+				88A43CAC7F42926EBCB09BD7AC7674B4 /* DateFieldRow.swift in Sources */,
+				2FEB5C040621F7A1BDC14E85DFA458BE /* DateInlineFieldRow.swift in Sources */,
+				8CCCA1A81562415EE401B748E2703245 /* DateInlineRow.swift in Sources */,
+				A51712A972C0D3B42A05D8C5111CD738 /* DatePickerRow.swift in Sources */,
+				56203C57523AFDCD33D088BE35EB8D60 /* DateRow.swift in Sources */,
+				BA82ACEBA2569061419D6A1B3C414135 /* DecimalFormatter.swift in Sources */,
+				18D6A84164297BD83B5E39AC247E1D96 /* DoublePickerInputRow.swift in Sources */,
+				60D1DBDA39F557EFA017BFE43E77EDFC /* DoublePickerRow.swift in Sources */,
+				5FDFAE21552EC2473B9E0C7345CDDB93 /* Eureka-dummy.m in Sources */,
+				5DA93A0DAC6748E243EC7E7D66DF6A16 /* FieldRow.swift in Sources */,
+				AFD24CF3649E39011BAB2F799314BDDA /* FieldsRow.swift in Sources */,
+				0B43A167F698ACB4F730EA64F6C461CD /* Form.swift in Sources */,
+				8A9B6CCDE4D71BDB42B8A9E313D6EA7B /* GenericMultipleSelectorRow.swift in Sources */,
+				D55B1D5D84E8E9F0A29CF1DA1C6259CA /* HeaderFooterView.swift in Sources */,
+				4CEA6307A6D4456810FC5371F94C002C /* Helpers.swift in Sources */,
+				8FD6E9B1FD39E0EB83D2523C07132F83 /* InlineRowType.swift in Sources */,
+				DD29914BA6C48A35C2BFD6F51FD3FFC2 /* LabelRow.swift in Sources */,
+				D5F2B1A0A5242B05263E53E067A92FBD /* ListCheckRow.swift in Sources */,
+				7BA241999A0D01B3A10529B205CE5D2E /* MultipleSelectorRow.swift in Sources */,
+				78634597F3E47E5CE0D46AAE63EDADBD /* MultipleSelectorViewController.swift in Sources */,
+				02CBCFF358D0ACB44A6A97A8725CCEC6 /* NavigationAccessoryView.swift in Sources */,
+				8C669E01A72CC2F190D9F2FBBB9C97B8 /* Operators.swift in Sources */,
+				6E23E670FC1701635AEB21AE2AA8D38C /* OptionsRow.swift in Sources */,
+				D3E5BDD35464BBC5602DC80574FCBD02 /* PickerInlineRow.swift in Sources */,
+				A8EA552CC52D19ED797709144919E28D /* PickerInputRow.swift in Sources */,
+				83788EA6BDF19C2B0EFBC1C0A6EAD717 /* PickerRow.swift in Sources */,
+				7EA2FFF279578F93714AA3BFEEA272AE /* PopoverSelectorRow.swift in Sources */,
+				1D00D942B3254A2690951EE54CD47021 /* PresenterRowType.swift in Sources */,
+				C6BEF235705360BE09DE811AE24A4901 /* Protocols.swift in Sources */,
+				FD8955489A5121D8A13A012B57C29B79 /* PushRow.swift in Sources */,
+				E28AC2D8FDA92B9A8B36822DD9E76753 /* Row.swift in Sources */,
+				42CAE3C91B930422680E4BB94C26D31C /* RowControllerType.swift in Sources */,
+				0CB0FF20D46A5392193B455F54578CA6 /* RowProtocols.swift in Sources */,
+				331E56D6546ECB5D29E7EEC242E14B32 /* RowType.swift in Sources */,
+				A982799567D8B7AE4C77676E8A1C0121 /* RuleClosure.swift in Sources */,
+				9A994D2A591F3560605E9E827B23402A /* RuleEmail.swift in Sources */,
+				121BE4F50E6F143945D18D3CFE755A2F /* RuleEqualsToRow.swift in Sources */,
+				4F3107FF28393D7CC501B655FDCD8389 /* RuleLength.swift in Sources */,
+				CEC9726BA7F753865EA2436D4CB45303 /* RuleRange.swift in Sources */,
+				0BA213AE19FB6632ABD78EFEE206E18B /* RuleRegExp.swift in Sources */,
+				89F9C664C125CA2672C9179B3251FB1C /* RuleRequired.swift in Sources */,
+				318A3803FAC453EF2225C514C8B07E8F /* RuleURL.swift in Sources */,
+				98A443B4D7ADA9B93A1ECE3E56F127E0 /* Section.swift in Sources */,
+				533B28E9947262FA12C1786A06A43B6A /* SegmentedRow.swift in Sources */,
+				1184AEE11A1EB69DC5E78DCF26CDC886 /* SelectableRowType.swift in Sources */,
+				B8F78C32E63EA0B3404E9E339E3B865E /* SelectableSection.swift in Sources */,
+				F533A26D81DC5D98BAB38699A672FE31 /* SelectorAlertController.swift in Sources */,
+				FC9E04E9AE889B98950F660F4B706F9A /* SelectorRow.swift in Sources */,
+				8CF831166D4F1023BCFF3BE311C0C4E2 /* SelectorViewController.swift in Sources */,
+				CB90934498F08FAF608C612DA5FEBC51 /* SliderRow.swift in Sources */,
+				5A14709C02D945CBCC612DA4E233D31D /* StepperRow.swift in Sources */,
+				A350FFFEE25A0D2B222A408AD6D6C0D7 /* SwipeActions.swift in Sources */,
+				92459AF27329668BDE529814A75B8DC1 /* SwitchRow.swift in Sources */,
+				E2665255213C21096C545626215F1B61 /* TextAreaRow.swift in Sources */,
+				A2726BAB86C3F80D97F9AF3A82FCBD2F /* TriplePickerInputRow.swift in Sources */,
+				BB82B413AC63540E9EC07D97660CFB11 /* TriplePickerRow.swift in Sources */,
+				8013521BCCBD2CF28B3CBFB5790F8369 /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE7A032EC98B92D05B65614AA240C437 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA8462BB0ADA611EC186F04F1C687B94 /* Pods-EurekaFormExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19C178B0C1C275423AF2225A14D47F6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ChangeEmailModule;
+			target = C1A1CA827D4678039BF74103FC983833 /* ChangeEmailModule */;
+			targetProxy = 8C946EBD04DEDC35718D659C1365F04D /* PBXContainerItemProxy */;
+		};
+		1DF9B0A311819DC91EA34937CEC5F5A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ChangePasswordModule;
+			target = B73EBD6544CF7745DF5F90ADC4E5B685 /* ChangePasswordModule */;
+			targetProxy = B3E7C7FE8690BC60AE035101142615E1 /* PBXContainerItemProxy */;
+		};
+		2CCBECE2B4DA8849024B7ADDE49DAFF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ChangeEmailModule;
+			target = C1A1CA827D4678039BF74103FC983833 /* ChangeEmailModule */;
+			targetProxy = 0F3720A84B643177143DA7658F11992F /* PBXContainerItemProxy */;
+		};
+		3FA23EB1A31928F6DCC96AEDBF10E741 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ImageRow;
+			target = FDEED0C73551C2A79D389CF0E6A14650 /* ImageRow */;
+			targetProxy = 5A5370A33A72D39B7F97D0E1DCF87614 /* PBXContainerItemProxy */;
+		};
+		45FA8EF0012B1FF821B20244B3D81FD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ChangePasswordModule;
+			target = B73EBD6544CF7745DF5F90ADC4E5B685 /* ChangePasswordModule */;
+			targetProxy = 46C0EDB9DFB19316B89D5522EEE19490 /* PBXContainerItemProxy */;
+		};
+		51F3FBA16EB5DF242A9FC4BF76DE93A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ImageRow;
+			target = FDEED0C73551C2A79D389CF0E6A14650 /* ImageRow */;
+			targetProxy = B439A0ECF0564D76CB14DA5AE1891A38 /* PBXContainerItemProxy */;
+		};
+		674F8079BDB40D1D0FBD63978B3642D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Eureka;
+			target = 88BE8BE7A2FE6CED4193CCD8FF3CBEF7 /* Eureka */;
+			targetProxy = 5C3D62772085FCD5933E68AD42153F61 /* PBXContainerItemProxy */;
+		};
+		6931AE6DAD3111F076E6515EC1F7E63F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ProfileModule;
+			target = 5A4C23B5D1E626D77EF3C7E17101F1BC /* ProfileModule */;
+			targetProxy = 5E76DFC93379A76B281592FE2F1C990B /* PBXContainerItemProxy */;
+		};
+		8041FFAABD6C13959E49E0DAB0979086 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Eureka;
+			target = 88BE8BE7A2FE6CED4193CCD8FF3CBEF7 /* Eureka */;
+			targetProxy = 48C796D1CA9CCEBB99DB5900FB614D96 /* PBXContainerItemProxy */;
+		};
+		82FF73A0C637E64407BDAEA8128066F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Eureka;
+			target = 88BE8BE7A2FE6CED4193CCD8FF3CBEF7 /* Eureka */;
+			targetProxy = A32EF29E758F9E80A31168C68CD12C63 /* PBXContainerItemProxy */;
+		};
+		93DC420187A51C81F796BA13499448B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Eureka;
+			target = 88BE8BE7A2FE6CED4193CCD8FF3CBEF7 /* Eureka */;
+			targetProxy = 0D882F8D12471AE40B6DC71912BA6785 /* PBXContainerItemProxy */;
+		};
+		969322B580E0E88FB2C71E38E4343DDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ChangeEmailModule;
+			target = C1A1CA827D4678039BF74103FC983833 /* ChangeEmailModule */;
+			targetProxy = 34520FFBC2D26B49C2B4319919E04375 /* PBXContainerItemProxy */;
+		};
+		B48779DB362D1C9646FFAFAA36CB5834 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Eureka;
+			target = 88BE8BE7A2FE6CED4193CCD8FF3CBEF7 /* Eureka */;
+			targetProxy = A8BC2814DF7E4B283DE3C3A2ECA1BAD8 /* PBXContainerItemProxy */;
+		};
+		D41E0B2B453B9445E429117DCC9154CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ChangePasswordModule;
+			target = B73EBD6544CF7745DF5F90ADC4E5B685 /* ChangePasswordModule */;
+			targetProxy = 208E598ED18CB092B2A8338C28C73073 /* PBXContainerItemProxy */;
+		};
+		D44B98C53EC8040CFDF4103AF2AD018C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Eureka;
+			target = 88BE8BE7A2FE6CED4193CCD8FF3CBEF7 /* Eureka */;
+			targetProxy = FF4A5A0822A1F5E9678594A5726E53F0 /* PBXContainerItemProxy */;
+		};
+		D916298A4A13A5499F4116B85C6BC7C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ImageRow;
+			target = FDEED0C73551C2A79D389CF0E6A14650 /* ImageRow */;
+			targetProxy = 363BE551ED7CBDE0BC14506BC61AECC1 /* PBXContainerItemProxy */;
+		};
+		DCF5DB3905E82E36C7F5EEC42C94D56B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Eureka;
+			target = 88BE8BE7A2FE6CED4193CCD8FF3CBEF7 /* Eureka */;
+			targetProxy = A708A751AE6BF5EEDF2FC89281D64408 /* PBXContainerItemProxy */;
+		};
+		E16309D286583D58F1A65ED8A761BBFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Eureka;
+			target = 88BE8BE7A2FE6CED4193CCD8FF3CBEF7 /* Eureka */;
+			targetProxy = AE0E1D9CF53DFFB8339882503465AC50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01AC1F326122D1A65F092D608F1A3B7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B81421E004E133AC0EB729F6CE703762 /* ChangePasswordModule.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ChangePasswordModule/ChangePasswordModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ChangePasswordModule/ChangePasswordModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ChangePasswordModule/ChangePasswordModule.modulemap";
+				PRODUCT_MODULE_NAME = ChangePasswordModule;
+				PRODUCT_NAME = ChangePasswordModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0DF71C879AD6CD7FF18B8DF32BDB9172 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B81421E004E133AC0EB729F6CE703762 /* ChangePasswordModule.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ChangePasswordModule/ChangePasswordModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ChangePasswordModule/ChangePasswordModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ChangePasswordModule/ChangePasswordModule.modulemap";
+				PRODUCT_MODULE_NAME = ChangePasswordModule;
+				PRODUCT_NAME = ChangePasswordModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2B3529C0FECA0657F8F9C5F8CAF6CDCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DB4F48B5D0099A790F5107B191055DB /* ImageRow.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ImageRow/ImageRow-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ImageRow/ImageRow-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ImageRow/ImageRow.modulemap";
+				PRODUCT_MODULE_NAME = ImageRow;
+				PRODUCT_NAME = ImageRow;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		35CCF77C981E9C7E554B1AB8F6C491AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D34739DAF2C3D99D1C8EDF23DE52866 /* Pods-ChangePasswordModule.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChangePasswordModule/Pods-ChangePasswordModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChangePasswordModule/Pods-ChangePasswordModule.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		3E4760DF43FFD8379E4CF8DF7D7DA8ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 659178257C25B626D56BC0E867FA77ED /* Pods-EurekaFormExample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EurekaFormExample/Pods-EurekaFormExample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EurekaFormExample/Pods-EurekaFormExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		550CAC0622F9BD652B8896D0522DE8CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8846DE6EA32C4AD8BE1D36720E6807D6 /* ProfileModule.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ProfileModule/ProfileModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ProfileModule/ProfileModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ProfileModule/ProfileModule.modulemap";
+				PRODUCT_MODULE_NAME = ProfileModule;
+				PRODUCT_NAME = ProfileModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		672ECA9A92D80F6B39902F089F31FD2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1A78D560339A521F0B790C7C9662F5B /* ChangeEmailModule.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ChangeEmailModule/ChangeEmailModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ChangeEmailModule/ChangeEmailModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ChangeEmailModule/ChangeEmailModule.modulemap";
+				PRODUCT_MODULE_NAME = ChangeEmailModule;
+				PRODUCT_NAME = ChangeEmailModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7A32E5236D30AF55931CFCE681420542 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1814C3CEEE4BCCEBF49ED5D8D0C236D5 /* Pods-ChangeEmailModule.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChangeEmailModule/Pods-ChangeEmailModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChangeEmailModule/Pods-ChangeEmailModule.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7D0C0E9688A00D832EF640AB560A6BBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CF69246DACE2FDFB5A06B6E2A2059FB /* Pods-ChangePasswordModule.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChangePasswordModule/Pods-ChangePasswordModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChangePasswordModule/Pods-ChangePasswordModule.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		807FF8F0A63FCD1C210769C36B9D0F13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19B6B1E3DE1553BE3E4F28C88F9094CD /* Pods-ProfileModule.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ProfileModule/Pods-ProfileModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ProfileModule/Pods-ProfileModule.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		91ABC813C6850E57544B90239601E4B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8CD30FF6DD996662D6C8A334BEF8650 /* Eureka.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Eureka/Eureka-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Eureka/Eureka-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Eureka/Eureka.modulemap";
+				PRODUCT_MODULE_NAME = Eureka;
+				PRODUCT_NAME = Eureka;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		947808F5C16C75A6A2CB626FFA00D116 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1A78D560339A521F0B790C7C9662F5B /* ChangeEmailModule.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ChangeEmailModule/ChangeEmailModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ChangeEmailModule/ChangeEmailModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ChangeEmailModule/ChangeEmailModule.modulemap";
+				PRODUCT_MODULE_NAME = ChangeEmailModule;
+				PRODUCT_NAME = ChangeEmailModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9E21706093E5DD71BDC925F1862249DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DB4F48B5D0099A790F5107B191055DB /* ImageRow.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ImageRow/ImageRow-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ImageRow/ImageRow-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ImageRow/ImageRow.modulemap";
+				PRODUCT_MODULE_NAME = ImageRow;
+				PRODUCT_NAME = ImageRow;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A47A8036A7B149E40C378772A672BE45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16A640880758B3EF2972C77BBB79C427 /* Pods-ProfileModule.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ProfileModule/Pods-ProfileModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ProfileModule/Pods-ProfileModule.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AA26D475C393824629A1FDCC723FDA78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 906A0638A3C9FBF355AD0DB7DEFCD416 /* Pods-EurekaFormExample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EurekaFormExample/Pods-EurekaFormExample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EurekaFormExample/Pods-EurekaFormExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EC560C62C4AF66CC29D9950EA955BDEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8846DE6EA32C4AD8BE1D36720E6807D6 /* ProfileModule.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ProfileModule/ProfileModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ProfileModule/ProfileModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ProfileModule/ProfileModule.modulemap";
+				PRODUCT_MODULE_NAME = ProfileModule;
+				PRODUCT_NAME = ProfileModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F75634BB264A04488ACF6D3164393B01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8CD30FF6DD996662D6C8A334BEF8650 /* Eureka.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Eureka/Eureka-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Eureka/Eureka-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Eureka/Eureka.modulemap";
+				PRODUCT_MODULE_NAME = Eureka;
+				PRODUCT_NAME = Eureka;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FB25D7DD3DFD8772363A9C9B14DF1F02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F3AF131C0FC8E4D4CB020EFFC130E92 /* Pods-ChangeEmailModule.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChangeEmailModule/Pods-ChangeEmailModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChangeEmailModule/Pods-ChangeEmailModule.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18DA2529BD4BA752ABBCB2BADF3E7008 /* Build configuration list for PBXNativeTarget "ImageRow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E21706093E5DD71BDC925F1862249DA /* Debug */,
+				2B3529C0FECA0657F8F9C5F8CAF6CDCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28A84C49CF67320E8518D0A6C8FB4FEC /* Build configuration list for PBXNativeTarget "Eureka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F75634BB264A04488ACF6D3164393B01 /* Debug */,
+				91ABC813C6850E57544B90239601E4B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34F7ABF48BE49A09BBA7FE955DAEF0BB /* Build configuration list for PBXNativeTarget "Pods-ProfileModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A47A8036A7B149E40C378772A672BE45 /* Debug */,
+				807FF8F0A63FCD1C210769C36B9D0F13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40B9339C759C8AF56F6572E22E0D20FA /* Build configuration list for PBXNativeTarget "Pods-EurekaFormExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E4760DF43FFD8379E4CF8DF7D7DA8ED /* Debug */,
+				AA26D475C393824629A1FDCC723FDA78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */,
+				3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54DB3961A143248D124584F75C88E1C7 /* Build configuration list for PBXNativeTarget "Pods-ChangePasswordModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D0C0E9688A00D832EF640AB560A6BBD /* Debug */,
+				35CCF77C981E9C7E554B1AB8F6C491AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A612FA71B5A9ED9D2E43DCC871BA23A /* Build configuration list for PBXNativeTarget "ProfileModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC560C62C4AF66CC29D9950EA955BDEC /* Debug */,
+				550CAC0622F9BD652B8896D0522DE8CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A759D42A58B8421222753AC524761A80 /* Build configuration list for PBXNativeTarget "Pods-ChangeEmailModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB25D7DD3DFD8772363A9C9B14DF1F02 /* Debug */,
+				7A32E5236D30AF55931CFCE681420542 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C200BBB193986F37B5BD1FE14B5D3029 /* Build configuration list for PBXNativeTarget "ChangePasswordModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01AC1F326122D1A65F092D608F1A3B7E /* Debug */,
+				0DF71C879AD6CD7FF18B8DF32BDB9172 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C776F85BD8787FDA8033C96EAA5B4B71 /* Build configuration list for PBXNativeTarget "ChangeEmailModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				947808F5C16C75A6A2CB626FFA00D116 /* Debug */,
+				672ECA9A92D80F6B39902F089F31FD2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

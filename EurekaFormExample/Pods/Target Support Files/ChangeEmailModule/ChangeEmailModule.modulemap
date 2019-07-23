@@ -1,0 +1,6 @@
+framework module ChangeEmailModule {
+  umbrella header "ChangeEmailModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

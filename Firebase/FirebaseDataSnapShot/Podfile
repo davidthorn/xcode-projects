@@ -1,0 +1,9 @@
+target 'FirebaseDataSnapShot' do
+  use_frameworks!
+
+  pod 'Firebase/Database'
+  pod 'Firebase/Core'
+  
+  
+  
+end

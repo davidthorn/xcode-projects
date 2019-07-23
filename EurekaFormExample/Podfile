@@ -1,0 +1,30 @@
+
+target 'EurekaFormExample' do
+  use_frameworks!
+
+  pod 'Eureka'
+  pod 'ProfileModule' , :path => "."
+end
+
+
+target 'ProfileModule' do
+  use_frameworks!
+  
+  pod 'Eureka'
+  pod 'ImageRow', '~> 4.0'
+  pod 'ChangeEmailModule' , :path => "."
+  pod 'ChangePasswordModule' , :path => "."
+end
+
+
+target 'ChangeEmailModule' do
+  use_frameworks!
+  pod 'Eureka'
+end
+
+target 'ChangePasswordModule' do
+  use_frameworks!
+  pod 'Eureka'
+end
+
+

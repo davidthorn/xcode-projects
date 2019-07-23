@@ -1,0 +1,38 @@
+{
+  "name": "ProfileModule",
+  "version": "0.1.0",
+  "summary": "A summary of your framework",
+  "swift_versions": "4.2",
+  "description": "A description about your framework",
+  "homepage": "https://github.com/davidthorn/ProfileModule.git",
+  "license": {
+    "type": "MIT"
+  },
+  "authors": {
+    "David Thorn": "david.thorn221278@googlemail.com"
+  },
+  "platforms": {
+    "ios": "9.3"
+  },
+  "source": {
+    "git": "https://github.com/davidthorn/ProfileModule.git",
+    "tag": "0.1.0"
+  },
+  "source_files": "ProfileModule/Classes/**/*.{swift}",
+  "resources": "ProfileModule/Assets/**/*.{storyboard, xibs}",
+  "dependencies": {
+    "Eureka": [
+
+    ],
+    "ImageRow": [
+
+    ],
+    "ChangeEmailModule": [
+
+    ],
+    "ChangePasswordModule": [
+
+    ]
+  },
+  "swift_version": "4.2"
+}

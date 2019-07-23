@@ -1,0 +1,6 @@
+${PODS_ROOT}/Target Support Files/Pods-EurekaFormExample/Pods-EurekaFormExample-frameworks.sh
+${BUILT_PRODUCTS_DIR}/ChangeEmailModule/ChangeEmailModule.framework
+${BUILT_PRODUCTS_DIR}/ChangePasswordModule/ChangePasswordModule.framework
+${BUILT_PRODUCTS_DIR}/Eureka/Eureka.framework
+${BUILT_PRODUCTS_DIR}/ImageRow/ImageRow.framework
+${BUILT_PRODUCTS_DIR}/ProfileModule/ProfileModule.framework
