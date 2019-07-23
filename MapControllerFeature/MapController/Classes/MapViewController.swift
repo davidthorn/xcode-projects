@@ -91,5 +91,11 @@ extension MapViewController: CLLocationManagerDelegate {
 
 extension MapViewController: MKMapViewDelegate {
     
+    public static func instance() -> MapViewController {
+        let sb = UIStoryboard.init(name: "MapController", bundle: Bundle.init(for: MapViewController.self))
+        let vc = sb.instantiateInitialViewController() as! MapViewController
+        return vc
+    }
+    
 }
 

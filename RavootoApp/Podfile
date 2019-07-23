@@ -1,0 +1,14 @@
+target 'RavootoApp' do
+  use_frameworks!
+  pod "MainFeature" , :path => "."
+end
+
+target 'MainFeature' do
+  use_frameworks!
+  
+  pod 'TabBarController' , :path => "../ContainerTabController"
+  pod 'MapController' , :path => "../MapControllerFeature"
+  pod 'MapItemForm' , :path => "../MapControllerFeature"
+  
+end
+

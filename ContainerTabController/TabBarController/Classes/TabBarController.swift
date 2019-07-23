@@ -113,5 +113,11 @@ extension TabBarController: UITabBarDelegate {
         self.setSelected(item: controllerItem)
     }
     
+    public static func instance() -> TabBarController {
+        let sb = UIStoryboard.init(name: "TabBarController", bundle: Bundle.init(for: TabBarController.self))
+        let vc = sb.instantiateInitialViewController() as! TabBarController
+        return vc
+    }
+    
 }
 
