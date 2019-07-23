@@ -1,0 +1,17 @@
+target 'MapController' do
+  use_frameworks!
+  pod 'TabBarController' , :path => "../ContainerTabController"
+  pod 'MapItemForm', :path => "."
+end
+
+target 'MapControllerFeature' do
+  use_frameworks!
+  pod 'MapController' , :path => "."
+end
+
+
+target 'MapItemForm' do
+  use_frameworks!
+  pod 'Eureka'
+  pod 'ImageRow'
+end
