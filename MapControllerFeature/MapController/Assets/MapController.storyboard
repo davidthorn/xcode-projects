@@ -22,10 +22,24 @@
                             </mapView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Xg-S3-QrI">
                                 <rect key="frame" x="334" y="656" width="60" height="60"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sPq-l9-tap">
+                                        <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="+"/>
+                                        <connections>
+                                            <action selector="addButtonAction:" destination="WL8-YU-vKE" eventType="touchUpInside" id="fMw-m6-cdO"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="60" id="HAy-vm-AQ1"/>
                                     <constraint firstAttribute="height" constant="60" id="NzI-Rl-JBV"/>
+                                    <constraint firstAttribute="trailing" secondItem="sPq-l9-tap" secondAttribute="trailing" id="aHc-b1-9qi"/>
+                                    <constraint firstAttribute="bottom" secondItem="sPq-l9-tap" secondAttribute="bottom" id="am4-DQ-mMg"/>
+                                    <constraint firstItem="sPq-l9-tap" firstAttribute="top" secondItem="0Xg-S3-QrI" secondAttribute="top" id="bcw-Oi-jjQ"/>
+                                    <constraint firstItem="sPq-l9-tap" firstAttribute="leading" secondItem="0Xg-S3-QrI" secondAttribute="leading" id="qcv-lE-mrS"/>
                                 </constraints>
                             </view>
                         </subviews>

@@ -23,5 +23,5 @@ s.source_files  = "MapController/Classes/**/*.{swift}"
 s.resources = "MapController/Assets/**/*.{storyboard, xibs}"
 
 s.dependency 'TabBarController'
-
+s.dependency 'MapItemForm'
 end

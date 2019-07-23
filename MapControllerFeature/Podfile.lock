@@ -3,6 +3,7 @@ PODS:
   - ImageRow (4.0.0):
     - Eureka (~> 5.0)
   - MapController (0.1.0):
+    - MapItemForm
     - TabBarController
   - MapItemForm (0.1.0):
     - Eureka
@@ -32,7 +33,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Eureka: 0f64f477ec8ef6201c6fec143d60ff5c201cf654
   ImageRow: e65b2e1a33f89062bf2a553a2aad61d975eb7428
-  MapController: 92925c0dcc6133b0dbcd26943215b86a503d5c1d
+  MapController: 69ed25ff4a192ea7f843329ef28b5c0932a31575
   MapItemForm: fbec762db91ab0724330ba914a8c690e800be28a
   TabBarController: 2c491576df1389458f6b20612c5658e4a2e05105
 

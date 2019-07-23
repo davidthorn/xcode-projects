@@ -9,10 +9,16 @@
 import UIKit
 import MapKit
 import CoreLocation
+import MapItemForm
 
 open class MapViewController: UIViewController {
     
     @IBOutlet weak var addButton: UIView!
+    @IBAction func addButtonAction(_ sender: Any) {
+        let vc = (UIStoryboard.init(name: "MapItemForm", bundle: Bundle.init(for: MapItemFormViewController.self))).instantiateInitialViewController() as! MapItemFormViewController
+        self.navigationController?.pushViewController(vc, animated: true)
+        
+    }
     
     var initialLocation: CLLocation? {
         didSet {

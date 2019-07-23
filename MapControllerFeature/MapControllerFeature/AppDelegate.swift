@@ -18,15 +18,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-//        let sb = (UIStoryboard.init(name: "MapController", bundle: Bundle.init(for: MapViewController.self)))
-//        let vc = sb.instantiateInitialViewController() as? MapViewController
-//        self.window?.rootViewController = UINavigationController.init(rootViewController: vc!)
-//        self.window?.makeKeyAndVisible()
-        
-        let sb = (UIStoryboard.init(name: "MapItemForm", bundle: Bundle.init(for: MapItemFormViewController.self)))
-        let vc = sb.instantiateInitialViewController() as? MapItemFormViewController
+        let sb = (UIStoryboard.init(name: "MapController", bundle: Bundle.init(for: MapViewController.self)))
+        let vc = sb.instantiateInitialViewController() as? MapViewController
         self.window?.rootViewController = UINavigationController.init(rootViewController: vc!)
         self.window?.makeKeyAndVisible()
+        
+//        let sb = (UIStoryboard.init(name: "MapItemForm", bundle: Bundle.init(for: MapItemFormViewController.self)))
+//        let vc = sb.instantiateInitialViewController() as? MapItemFormViewController
+//        self.window?.rootViewController = UINavigationController.init(rootViewController: vc!)
+//        self.window?.makeKeyAndVisible()
         return true
     }
 

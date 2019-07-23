@@ -77,7 +77,7 @@
 		449E03FD22E7623E00E419B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		449E040922E7625400E419B6 /* MapController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MapController.storyboard; sourceTree = "<group>"; };
 		449E040B22E7626000E419B6 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
-		449E040D22E7627D00E419B6 /* MapController.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MapController.podspec; sourceTree = "<group>"; };
+		449E040D22E7627D00E419B6 /* MapController.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MapController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		449E041422E7696100E419B6 /* MapItemForm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MapItemForm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		449E041622E7696100E419B6 /* MapItemForm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapItemForm.h; sourceTree = "<group>"; };
 		449E041722E7696100E419B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
